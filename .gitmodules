@@ -142,3 +142,9 @@
 [submodule "home/.vim/core-upstream/bundle/vim-json"]
 	path = home/.vim/core-upstream/bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "home/.vim/core-upstream/bundle/vim-colorscheme-switcher"]
+	path = home/.vim/core-upstream/bundle/vim-colorscheme-switcher
+	url = https://github.com/xolox/vim-colorscheme-switcher.git
+[submodule "home/.vim/core-upstream/bundle/vim-misc"]
+	path = home/.vim/core-upstream/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
