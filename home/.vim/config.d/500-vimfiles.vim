@@ -203,17 +203,6 @@ endif
 
 
 
-" Themes and GUI settings
-" -----------------------------------------------------------------------------
-if $TERM == 'xterm-color' && &t_Co == 8
-  set t_Co=16
-endif
-
-syntax on
-set background=dark
-colorscheme colorblind
-
-
 " GUI specific settings (could be in .gvimrc)
 " -----------------------------------------------------------------------------
 if has('gui_running')
