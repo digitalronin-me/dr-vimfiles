@@ -35,7 +35,6 @@ default_bundles=(
 full_path=`pwd`
 
 echo "Creating directories..."
-mkdir -p $full_path/home/.vim/tmp/swap
 mkdir -p $full_path/home/.vim/tmp/yankring
 mkdir -p $full_path/home/.vim/spell
 
