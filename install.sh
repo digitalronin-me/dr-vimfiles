@@ -35,8 +35,6 @@ default_bundles=(
 full_path=`pwd`
 
 echo "Creating directories..."
-mkdir -p $full_path/home/.vim/bundle
-mkdir -p $full_path/home/.vim/snippets
 mkdir -p $full_path/home/.vim/tmp/swap
 mkdir -p $full_path/home/.vim/tmp/yankring
 mkdir -p $full_path/home/.vim/spell
@@ -57,11 +55,11 @@ done
 
 
 echo "Symlinking default snippets..."
-for f in `ls $full_path/home/.vim/snippets_storage/`; do
-  ln -sv $full_path/home/.vim/snippets_storage/$f $full_path/home/.vim/snippets/$f
+for f in `ls $full_path/home/.vim/core-upstream/snippets/`; do
+  ln -sv $full_path/home/.vim/core-upstream/snippets/$f $full_path/home/.vim/snippets/$f
 done
 # Make an additional symlink of css for scss
-ln -sv $full_path/home/.vim/snippets_storage/css.snippets $full_path/home/.vim/snippets/scss.snippets
+ln -sv $full_path/home/.vim/core-upstream/snippets/css.snippets $full_path/home/.vim/snippets/scss.snippets
 
 echo "--------------------------------------------------"
 echo "*** Install Complete ***"
