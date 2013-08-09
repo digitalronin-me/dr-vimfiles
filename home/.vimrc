@@ -3,7 +3,7 @@
 set nocompatible
 
 " Use Pathogen to load bundles
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 call pathogen#helptags()
 
 filetype on
