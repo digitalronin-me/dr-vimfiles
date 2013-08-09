@@ -58,6 +58,6 @@ Thumbs.db
 tmp/
 tags/
 tags
-bundle/
+#bundle/
 snippets/
 spell/

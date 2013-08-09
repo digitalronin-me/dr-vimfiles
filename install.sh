@@ -52,7 +52,7 @@ git submodule foreach git clean -f
 
 echo "Symlinking default bundles..."
 for i in "${default_bundles[@]}"; do
-  ln -sv $full_path/home/.vim/bundle_storage/$i $full_path/home/.vim/bundle/$i
+  ln -sv $full_path/home/.vim/core-upstream/bundle/$i $full_path/home/.vim/bundle/$i
 done
 
 
