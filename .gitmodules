@@ -49,9 +49,6 @@
 [submodule "home/.vim/core-upstream/bundle/jade.vim"]
 	path = home/.vim/core-upstream/bundle/jade.vim
 	url = https://github.com/vim-scripts/jade.vim.git
-[submodule "home/.vim/core-upstream/bundle/json.vim"]
-	path = home/.vim/core-upstream/bundle/json.vim
-	url = https://github.com/vim-scripts/JSON.vim.git
 [submodule "home/.vim/core-upstream/bundle/lustyjuggler"]
 	path = home/.vim/core-upstream/bundle/lustyjuggler
 	url = https://github.com/vim-scripts/LustyJuggler.git
@@ -142,3 +139,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-coffee-script"]
 	path = home/.vim/core-upstream/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "home/.vim/core-upstream/bundle/vim-json"]
+	path = home/.vim/core-upstream/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
