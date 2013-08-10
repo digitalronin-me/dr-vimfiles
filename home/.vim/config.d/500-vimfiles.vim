@@ -7,11 +7,6 @@
 
 " Key mapping
 " -----------------------------------------------------------------------------
-nnoremap j gj
-nnoremap k gk
-nnoremap ; :
-inoremap jj <ESC>
-inoremap jk <Esc>
 
 " Block movement
 nmap <tab> %
