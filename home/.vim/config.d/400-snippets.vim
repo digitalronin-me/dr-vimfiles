@@ -3,6 +3,8 @@
 " Tell snipmate to pull it's snippets from a custom directory
 let g:snippets_dir = $HOME.'/.vim/snippets/'
 
+inoremap <silent> <F5> <c-r>=ShowAvailableSnips()<cr>
+
 if !exists("autocmd_loaded_snippets_2l2fb")
   let autocmd_loaded_snippets_2l2fb = 1
 
