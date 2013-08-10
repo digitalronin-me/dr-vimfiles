@@ -55,6 +55,10 @@ set gdefault
 set grepprg=ack
 runtime macros/matchit.vim
 
+" Popup menu behavior
+set completeopt=longest,menu
+set pumheight=20
+
 let mapleader = ','
 
 command! -nargs=* Wrap set wrap linebreak nolist
