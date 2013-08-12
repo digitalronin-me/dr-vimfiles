@@ -1,6 +1,6 @@
 # DR-Vimfiles
 
-DR-Vim is a fork of [factorylabs/vimfiles][flvimfiles].  It looks like
+DR-Vimfiles is a fork of [factorylabs/vimfiles][flvimfiles].  It looks like
 [factorylabs/vimfiles][flvimfiles] has been sitting dormant for the last few
 years.  There's a lot of great work in there that should be continued, and
 improved upon.  DR-Vimfiles is an attempt at that.
