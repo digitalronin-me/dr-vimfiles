@@ -1,44 +1,71 @@
-# F/ Vim Configuration
+# DR-Vimfiles
 
-The default configuration files for Vim used at F/. Tuned to play nice with
-[MacVim][macvim] but works with most \*nix environments. Setup using
-[homesick][homesick] for that symlinkn' goodness.
+DR-Vim is a fork of [factorylabs/vimfiles][flvimfiles].  It looks like
+[factorylabs/vimfiles][flvimfiles] has been sitting dormant for the last few
+years.  There's a lot of great work in there that should be continued, and
+improved upon.  DR-Vimfiles is an attempt at that.
 
+***Please keep in mind thathis is a work in progress, and should not be
+considered unstable for now***
 
-## To Get The Full Effect
-
-F/ peops, double check, but you most likely already have the basic requirements
-installed on your machine.
-
-- [Homebrew][homebrew] - `ruby -e "$(curl -fsSL
-  https://gist.github.com/raw/323731/install_homebrew.rb)"`
-- [MacVim][macvim] - `brew install macvim`
-- [Homesick][homesick] - `gem install homesick`
-- [discount][discount] - `brew install discount `
-- [ctags][ctags] - `brew install ctags `
-
-[MacVim][macvim] is not a requirement as the majority of the files work in most
-\*nix environments including Terminal. It's recommended to use
-[Homebrew's][homebrew] package of [MacVim][macvim], as it compiles MacVim and
-Vim at 64 bit with Ruby, Python, Perl, installs the command line link `mvim`,
-plus a bunch of other goodness. [Homesick][homesick] is required for easy
-management of dot files with the repository. The [discount][discount]
-executable is recommended for converting markdown files to html for previewing.
-The [ctags][ctags] executable is helpful for taglist (jumping between files)
-and omni completion.
+Tuned to play nice with [Vim][vim] on  OS X but works with most \*nix
+environments. Setup using [homesick][homesick] for that symlinkn' goodness.
 
 
-## Installation
+## Prerequisites 
 
-To install the files and default configuration run the following:
+This covers system level prerequisites.
 
-    homesick clone git@github.com:factorylabs/vimfiles.git
-    cd ~/.homesick/repos/vimfiles
+Virtually all of these are optional, but **highly** recommended:
+
+- [Ruby 2.0.0][ruby] -  needed to run the latest version of [Redcarpet
+  2][redcarpet], else you will be limited to *Redcarpet 2.3.0*, which uses
+  *Ruby 1.8.7*.
+- [Ruby 1.8.7][ruby] - Yep, **both** *Ruby 2.0.0* and *Ruby 1.8.7*.  *Ruby
+  1.8.7* is used by Vim internally and, in turn, by some of the Vim bundles
+  that are installed as *DR-Vimfiles*.  Both versions of *Ruby* should be able
+  to coexist.
+- [Python][python] - Either *Python 2* or *Python 3* will do.  *Python* is used
+  by some of the bundles that are part of *DR-Vimfiles*.
+  [SirVer/ultisnips][ultisnips] being the main one.
+- [Homesick][homesick] - Homesick is sorta like rip, but for dotfiles. It uses
+  git to clone a repository containing dotfiles, and saves them in ~/.homesick.
+  It then allows you to symlink all the dotfiles into place with a single
+  command (from the Homesick site).
+- [Redcarpet][redcarpet] - Redcarpet is Ruby library for Markdown processing
+  that smells like butterflies and popcorn (from the Redcarpet site).  It is
+  used by a lot of the bundles when dealing with Markdown documents.
+- [Exuberant Ctags][ctags] - Ctags generates an index (or tag) file of language
+  objects found in source files that allows these items to be quickly and
+  easily located by a text editor or other utility. A tag signifies a language
+  object for which an index entry is available (from the Exuberant Ctags site).
+
+
+If you are planning on doing JavaScript development, consider installing the
+following:
+
+- [Node.js][nodejs] - Node.js is a platform built on Chrome's JavaScript
+  runtime for easily building fast, scalable network applications. Node.js uses
+  an event-driven, non-blocking I/O model that makes it lightweight and
+  efficient, perfect for data-intensive real-time applications that run across
+  distributed devices (from their site).
+- [npm][npm] - Node Packaged Modules.
+- [JSLint][nodejslint] - Easily use JSLint from the command line (from their
+  site).
+- [JSHint][nodejshint] - JSHint is a community-driven tool to detect errors and
+  potential problems in JavaScript code and to enforce your team’s coding
+  conventions. It is very flexible so you can easily adjust it to your
+  particular coding guidelines and the environment you expect your code to
+  execute in (from their site).
+
+## Simple Installation
+
+Now, assuming you have all the prerequisites in place installation this simple:
+
+    homesick clone https://github.com/digitalronin-me/dr-vimfiles
+    cd ~/.homesick/repos/dr-vimfiles/
     bash install.sh
-    homesick symlink vimfiles -f
-
-\* If you don't have commit rights use `homesick clone
-https://github.com/factorylabs/vimfiles.git`
+    homesick symlink dr-vimfiles -f
 
 This will install the default configuration files/directories, submodules, and
 create symbolic links for bundles and snippets. Most of the heavy lifting is
@@ -46,6 +73,123 @@ done by the [install script][install.sh].
 
 At this point you should have a default setup ready to rock. You're going to
 want to tune it a bit to your environment, so go forth and "Pimp Your Ride".
+
+
+## Installation Details
+
+Missing some of the prerequisites?  This section is for you.  
+
+***In fact!  Everyone should at least skim this section to make sure that they
+did not miss anything.***  Just say'n.  You have been warned
+
+
+### OS X - MacPorts or Homebrew?
+
+On an OS X system you will need one of the two following package
+managers/environments installed, *not both*:
+
+- [MacPorts][macports] - The MacPorts Project is an open-source community
+  initiative to design an easy-to-use system for compiling, installing, and
+  upgrading either command-line, X11 or Aqua based open-source software on the
+  Mac OS X operating system (from their site).
+- [Homebrew][homebrew] - Homebrew installs the stuff you need that Apple
+  didn’t (from their site).
+
+If you are not already using either MacPorts or Homebrew, it is worth doing
+your research.  Both have their pros and cons;  Both have their intended
+user bases.
+
+Personally, I use [MacPorts][macports] for various reasons and only going to
+maintain the MacPorts section of this documentation.
+
+If someone is willing to pick up the reins on the [Homebrew][homebrew] side,
+the assistance would greatly appreciated.
+
+
+### <a id="macports_install"></a>MacPorts (OS X)
+
+This section is intended for [MacPorts][macports] users.
+
+If you have not already installed MacPorts, please go to the [MacPorts
+installation page][macports_install].  
+
+Install Ruby 2.0.0, Vim will automatically install Ruby 1.8.7 on its own:
+
+    sudo port install ruby20
+    sudo port select --set ruby ruby20
+
+Remember, you need Ruby 2.0.0 of greater for some of the external tools.
+
+Install ctags:
+
+    sudo port install ctags
+
+If you have version of Vim built with the *+ruby* AND (*+python* OR *+python3*)
+options set, you are done.  Proceed to the [Common Installation
+Tasks](#common_install) section below.  To see Vim's build options:
+
+    vim --version
+
+If your version of Vim was not built with Ruby and Python support, proceed with
+the rest of this section.
+
+    # Install Python 3.3:
+    sudo port install python33
+    sudo port select --set python python33
+    
+    # Build and install Vim with Ruby and Python support:
+    sudo port install vim +python33 +ruby 
+
+Depending on your needs, you might want to consider installing some of the
+following as well:
+
+    # Node.js & NPM
+    sudo port install nodejs npm
+
+    # *TODO* More to come
+
+
+### <a id="homebrew_install"></a>Homebrew (OS X)
+
+This section is intended for [Homebrew][homebrew] users.  **If you are using
+MacPorts, please skip this section.**
+
+I know little about maintaining an environment with [Homebrew][homebrew], so
+the following is practically verbatim from the old documentation.
+
+Assistance maintaining this section would be appreciated.
+
+- [Homebrew][homebrew] - `ruby -e "$(curl -fsSL
+  https://gist.github.com/raw/323731/install_homebrew.rb)"`
+- [MacVim][macvim] - `brew install macvim`
+- [discount][discount] - `brew install discount `
+- [ctags][ctags] - `brew install ctags `
+
+You can now proceed to the [Common Installation Tasks](#common_install)
+section.
+
+
+### Ubuntu (Linux)
+
+***TODO***
+
+You can now proceed to the [Common Installation Tasks](#common_install)
+section.
+
+
+### <a id="common_install"></a>Common Installation Tasks
+
+    # Install Homesick
+    sudo gem install homesick
+
+    # Install Redcarpet
+    sudo gem install redcarpet
+
+You might want to consider installing the following as well:
+
+    sudo npm update -g 
+    sudo npm install jshint -g
+    sudo npm install jslint -g
 
 
 ## Pimp Your Ride
@@ -250,7 +394,7 @@ directory, you can be selective about what gets a symbolic link within the
 If you are working in a project that includes jQuery, you would only have
 symbolic links created for `javascript.snippets`,
 `javascript-jasmine.snippets`, and `javascript-jquery.snippets`. Another
-project that uses [node.js][node], you could delete the symbolic link to
+project that uses [node.js][nodejs], you could delete the symbolic link to
 `javascript-jquery.snippets` and add in `javascript-node.snippets` instead.
 This will give you a more manageable list of snippets to work with. By default,
 all snippets are included at installation, you'll want to tune these based on
@@ -271,7 +415,7 @@ of the box. Buffers are checked after each save.
 
 The JavaScript syntax checker runs [JSHint][jshint] instead of jsl which is
 included with [syntastic][syntastic]. The executable to [JSHint][jshint] runs
-on [node.js][node] and needs to be installed via [npm][npm]. Also install the
+on [node.js][nodejs] and needs to be installed via [npm][npm]. Also install the
 custom configuration JSON file into your `$HOME` directory. Instructions for
 doing this are located at the [jshint-config][jshint-config] repository. This
 installation will make it global to your machine. If you need a specific
@@ -410,7 +554,7 @@ repositories. Anything written by F/ is of course open source through MIT.
 While contributions are welcome, you're probably better off forking and tuning
 it to your own machine.
 
-Copyright (c) 2011 by Factory Design Labs
+Copyright (c) 2013 by DigitalRonin.me
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -432,10 +576,26 @@ SOFTWARE.
 
 
 <!-- link ids -->
+[flvimfiles]: https://github.com/factorylabs/vimfiles
+[vim]: http://www.vim.org/
+[redcarpet]: https://github.com/vmg/redcarpet
+[ruby]: http://www.ruby-lang.org/
+[python]: http://www.python.org/
+[ultisnips]: https://nipsithub.com/SirVer/ultisnips
+[macports]: http://www.macports.org/
+[macports_install]: http://www.macports.org/install.php
+
+[nodejs]: http://nodejs.org/
+[npm]: http://npmjs.org/
+[nodejslint]: https://github.com/reid/node-jslint
+[nodejshint]: https://github.com/jshint/node-jshint
+
+[jshint]: http://jshint.com/ 
+[jslint]: http://www.jslint.com/lint.html
+
 [macvim]: http://code.google.com/p/macvim/
 [homebrew]: http://github.com/mxcl/homebrew
 [homesick]: http://github.com/technicalpickles/homesick
-[node]: http://nodejs.org/
 [ctags]: http://ctags.sourceforge.net/
 [discount]: http://www.pell.portland.or.us/~orc/Code/discount/
 [vim-scripts]: https://github.com/vim-scripts
@@ -443,7 +603,6 @@ SOFTWARE.
 [update.sh]: https://github.com/factorylabs/vimfiles/blob/master/update.sh
 [clean.sh]: https://github.com/factorylabs/vimfiles/blob/master/clean.sh
 [closure]: http://code.google.com/p/closure-linter/
-[jslint]: http://www.jslint.com/lint.html
 [syntastic]: https://github.com/scrooloose/syntastic
 [snipmate]: https://github.com/msanders/snipmate.vim
 [pathogen]: https://github.com/tpope/vim-pathogen
@@ -451,8 +610,5 @@ SOFTWARE.
 [MesloGM]: https://github.com/andreberg/Meslo-Font
 [defunkt]: http://github.com/defunkt
 [defunkt-subs]: http://github.com/guides/developing-with-submodules
-[node]: http://nodejs.org/
-[npm]: http://npmjs.org/
-[jshint]: http://jshint.com/ 
 [jshint-config]: https://github.com/factorylabs/jshint-config 
 
