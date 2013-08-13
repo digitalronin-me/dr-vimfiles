@@ -13,7 +13,7 @@ default_bundles=(
   nerdtree
   processing.vim
   rvm.vim
-  snipmate.vim
+  ultisnips
   statusline
   supertab
   syntastic

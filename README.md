@@ -211,8 +211,6 @@ otherwise `yankring` will save it's history in a file in your `$HOME` directory
   gain templates and style sheets to keep you out of MS Word.
 - Set the default browser by changing `g:RefreshRunningBrowserDefault`. Use
   "chrome", "safari", or "firefox"
-- Give yourself a signature with `g:snips_author` by including your name for
-  various [snipmate][snipmate] snippets
 - Optionally uncomment one of the `colorschemes`, there are 4 included as
   described below, the default is `colorblind`
 - It's recommended to uncomment the entire conditional under *User GUI specific
@@ -297,8 +295,8 @@ This will give you a more manageable list of snippets to work with. By default,
 all snippets are included at installation, you'll want to tune these based on
 your needs.
 
-To learn more about [snipmate][snipmate] and creating snippets, type `:h
-snipmate`
+To learn more about [SirVer/ultisnips][ultisnips] and creating snippets, type
+`:h UltiSnips`
 
 For a quick way to do this, you may want to [create a shell
 script](https://gist.github.com/781626) to help automate the process. You'll
@@ -478,7 +476,7 @@ SOFTWARE.
 [redcarpet]: https://github.com/vmg/redcarpet
 [ruby]: http://www.ruby-lang.org/
 [python]: http://www.python.org/
-[ultisnips]: https://nipsithub.com/SirVer/ultisnips
+[ultisnips]: https://github.com/SirVer/ultisnips
 [macports]: http://www.macports.org/
 [macports_install]: http://www.macports.org/install.php
 
@@ -501,7 +499,6 @@ SOFTWARE.
 [clean.sh]: https://github.com/factorylabs/vimfiles/blob/master/clean.sh
 [closure]: http://code.google.com/p/closure-linter/
 [syntastic]: https://github.com/scrooloose/syntastic
-[snipmate]: https://github.com/msanders/snipmate.vim
 [pathogen]: https://github.com/tpope/vim-pathogen
 [fmd-themes]: https://github.com/factorylabs/fmd-themes
 [MesloGM]: https://github.com/andreberg/Meslo-Font

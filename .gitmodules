@@ -64,9 +64,6 @@
 [submodule "home/.vim/core-upstream/bundle/processing.vim"]
 	path = home/.vim/core-upstream/bundle/processing.vim
 	url = https://github.com/vim-scripts/Processing.git
-[submodule "home/.vim/core-upstream/bundle/snipmate.vim"]
-	path = home/.vim/core-upstream/bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "home/.vim/core-upstream/bundle/specky"]
 	path = home/.vim/core-upstream/bundle/specky
 	url = https://github.com/vim-scripts/Specky.git
@@ -148,3 +145,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-misc"]
 	path = home/.vim/core-upstream/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "home/.vim/core-upstream/bundle/ultisnips"]
+	path = home/.vim/core-upstream/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

@@ -63,7 +63,9 @@ be a lot cooler if you didn't.
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
 - [processing.vim](https://github.com/vim-scripts/Processing)
 - [rvm.vim](https://github.com/csexton/rvm.vim)
-- [snipmate.vim](https://github.com/msanders/snipmate.vim/blob/master/doc/snipMate.txt)
+- [SirVer/ultisnips][https://nipsithub.com/SirVer/ultisnips] - This is an
+  implementation of TextMates Snippets for the Vim Text Editor. It has all
+  features of TextMates Snippets and then some.
 - [statusline](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
 - [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
 - [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
@@ -144,7 +146,6 @@ SOFTWARE.
 [redcarpet]: https://github.com/vmg/redcarpet
 [ruby]: http://www.ruby-lang.org/
 [python]: http://www.python.org/
-[ultisnips]: https://nipsithub.com/SirVer/ultisnips
 [macports]: http://www.macports.org/
 [macports_install]: http://www.macports.org/install.php
 
@@ -167,7 +168,6 @@ SOFTWARE.
 [clean.sh]: https://github.com/factorylabs/vimfiles/blob/master/clean.sh
 [closure]: http://code.google.com/p/closure-linter/
 [syntastic]: https://github.com/scrooloose/syntastic
-[snipmate]: https://github.com/msanders/snipmate.vim
 [pathogen]: https://github.com/tpope/vim-pathogen
 [fmd-themes]: https://github.com/factorylabs/fmd-themes
 [MesloGM]: https://github.com/andreberg/Meslo-Font
