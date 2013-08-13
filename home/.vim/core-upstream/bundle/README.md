@@ -55,7 +55,9 @@ be a lot cooler if you didn't.
 - [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [jade.vim](https://github.com/vim-scripts/jade.vim)
-- [json.vim](https://github.com/vim-scripts/JSON.vim)
+- [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim:
+  distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings,
+  quote concealing. Pathogen-friendly.
 - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
