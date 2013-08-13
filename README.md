@@ -269,9 +269,8 @@ week to keep the submodules as up to date as possible.
 ## Plug-Ins
 
 Plug-ins are managed using [vim-pathogen][pathogen].  For a list of all
-plug-ins, and informationon how to manage them, please refer to the
-[DR-Vimfiles Plug-In Management](home/.vim/core-upstream/bundle/README)
-document.
+plug-ins, and informationon how to manage them, please refer to the `README` file
+in `dr-vimfiles/home/.vim/core-upstream/bundle/`.
 
 
 ## Snippets
