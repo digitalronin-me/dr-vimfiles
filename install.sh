@@ -14,7 +14,6 @@ default_bundle_submods=(
   processing.vim
   rvm.vim
   ultisnips
-  statusline
   supertab
   syntastic
   vim-coffee-script
@@ -33,6 +32,7 @@ default_bundle_submods=(
 
 default_bundle_snapshots=(
   taglist
+  statusline
 )
 
 full_path=`pwd`
@@ -52,12 +52,12 @@ git submodule foreach git clean -f
 
 echo "Symlinking default bundle submods..."
 for i in "${default_bundle_submods[@]}"; do
-  ln -svf "$full_path/home/.vim/core-upstream/bundle/$i" "$full_path/home/.vim/bundle/"
+  ln -sv "$full_path/home/.vim/core-upstream/bundle/$i" "$full_path/home/.vim/bundle/"
 done
 
 echo "Symlinking default bundle submods..."
 for i in "${default_bundle_snapshots[@]}"; do
-  ln -svf "$full_path/home/.vim/core-upstream/bundle-snapshot/$i" "$full_path/home/.vim/bundle/"
+  ln -sv "$full_path/home/.vim/core-upstream/bundle-snapshot/$i" "$full_path/home/.vim/bundle/"
 done
 
 echo "--------------------------------------------------"
