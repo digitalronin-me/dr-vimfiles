@@ -41,7 +41,7 @@ endif
 " Backups
 set history=1000
 set undolevels=1000
-set nobackup
+set backup
 set directory=.
 set viminfo='500,:1000,/1000,f1,n~/.viminfo
 
