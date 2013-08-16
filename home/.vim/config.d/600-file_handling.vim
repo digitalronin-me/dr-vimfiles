@@ -9,7 +9,7 @@ endfunction
 " Enable browser refreshing on web languages
 function! s:setBrowserEnv()
   if has('mac')
-    map <buffer> <silent><leader>r :RRB<cr>
+    map <unique> <buffer> <silent> <leader>r :RRB<cr>
   endif
 endfunction
 

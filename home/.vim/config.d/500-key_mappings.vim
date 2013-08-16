@@ -13,8 +13,8 @@ nmap <unique> <tab> %
 vmap <unique> <tab> %
 
 " Insert/append a single character
-nmap ,, i_<esc>r
-nmap ;; a_<esc>r
+nmap <unique> ,, i_<esc>r
+nmap <unique> ;; a_<esc>r
 
 " Clear the search highlight
 map <unique> <silent> \ :silent nohlsearch<cr>

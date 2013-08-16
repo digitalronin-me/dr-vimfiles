@@ -11,10 +11,10 @@ if has('gui_running')
     macmenu &File.New\ Tab key=<nop>
     set fuoptions=maxhorz,maxvert
     set cursorline
-    inoremap <F1> <ESC>:set invfullscreen<CR>
-    nnoremap <F1> :set invfullscreen<CR>
-    vnoremap <F1> :set invfullscreen<CR>
-    vmap <D-]> >gv
-    vmap <D-[> <gv
+    inoremap <unique> <F1> <ESC>:set invfullscreen<CR>
+    nnoremap <unique> <F1> :set invfullscreen<CR>
+    vnoremap <unique> <F1> :set invfullscreen<CR>
+    vmap <unique> <D-]> >gv
+    vmap <unique> <D-[> <gv
   end
 endif

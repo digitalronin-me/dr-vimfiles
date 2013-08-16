@@ -59,6 +59,6 @@ runtime macros/matchit.vim
 set completeopt=longest,menu
 set pumheight=20
 
-let mapleader = ','
+let mapleader = '\\'
 
 command! -nargs=* Wrap set wrap linebreak nolist

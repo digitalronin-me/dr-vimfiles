@@ -1,9 +1,9 @@
 " unimpaired`
 " -----------------------------------------------------------------------------
 " Bubble single lines (requires unimpaired.vim)
-nmap <C-Up> [e
-nmap <C-Down> ]e
+nmap <unique> <C-Up> [e
+nmap <unique> <C-Down> ]e
 
 " Bubble multiple lines (requires unimpaired.vim)
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+vmap <unique> <C-Up> [egv
+vmap <unique> <C-Down> ]egv

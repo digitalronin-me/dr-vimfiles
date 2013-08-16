@@ -1,3 +1,3 @@
 " taglist
 " -----------------------------------------------------------------------------
-nnoremap <silent> <F3> :TlistToggle<cr>
+nnoremap <unique> <silent> <F3> :TlistToggle<cr>

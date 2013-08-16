@@ -1,4 +1,4 @@
 " vim-fugitive
 " -----------------------------------------------------------------------------
 " Git bindings
-map <leader>gs :Gstatus<cr>
+map <unique> <leader>gs :Gstatus<cr>
