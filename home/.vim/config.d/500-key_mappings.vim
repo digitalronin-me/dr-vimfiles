@@ -27,7 +27,7 @@ nmap <unique> gV `[v`]
 " -----------------------------------------------------------------------------
 
 " Toggle wrapping in the current buffer
-nmap <unique> <silent> <leader>wt :set wrap!<cr>
+nmap <unique> <leader>wt :set wrap!<cr>
 
 " Edit .vimrc and .vimrc.local
 nmap <unique> <leader>evm <C-w><C-v><C-l>:e $MYVIMRC<cr>
@@ -40,13 +40,13 @@ map <unique> <leader>CN :%s/^\n\+/\r//<cr>:let @/=''<cr>
 map <unique> <leader>CW :%s/\s\+$//<cr>:let @/=''<cr>
 
 " Retab My Authority.
-map <unique> <silent> <leader>CT :retab<cr>
+map <unique> <leader>CT :retab<cr>
 
 " Open current buffer in a new split
 map <unique> <leader>s <C-w>v<C-w>l
 
 " Toggle spelling hints
-nmap <unique> <silent> <leader>ts :set spell!<cr>
+nmap <unique> <leader>ts :set spell!<cr>
 
 " Reload ctags
 map <unique> <leader>rt :!ctags --extra=+f -R *<cr><cr>
@@ -58,7 +58,7 @@ map <unique> <leader>e :e <C-R>=expand("%:p:h") . "/" <cr>
 cmap <unique> <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 
 " Closes the window showing the location list from sytastic errors
-map <unique> <silent> <leader>lc :lcl<cr>
+map <unique> <leader>lc :lcl<cr>
 
 
 " !- See the statusline plugin for status line settings...
