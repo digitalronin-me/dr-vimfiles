@@ -1,5 +1,5 @@
 #!/bin/sh
-default_bundles=(
+default_bundle_submods=(
   ack.vim
   actionscript.vim
   applescript.vim
@@ -17,7 +17,6 @@ default_bundles=(
   statusline
   supertab
   syntastic
-  taglist.vim
   vim-coffee-script
   vim-cucumber
   vim-fugitive
@@ -30,6 +29,10 @@ default_bundles=(
   vim-unimpaired
   vim-surround
   yankring
+)
+
+default_bundle_snapshots=(
+  taglist.vim
 )
 
 full_path=`pwd`
@@ -47,9 +50,14 @@ git submodule update
 git submodule foreach git checkout master
 git submodule foreach git clean -f
 
-echo "Symlinking default bundles..."
-for i in "${default_bundles[@]}"; do
+echo "Symlinking default bundle submods..."
+for i in "${default_bundle_submods[@]}"; do
   ln -sv $full_path/home/.vim/core-upstream/bundle/$i $full_path/home/.vim/bundle/$i
+done
+
+echo "Symlinking default bundle submods..."
+for i in "${default_bundle_snapshots[@]}"; do
+  ln -sv $full_path/home/.vim/core-upstream/bundle-snapshot/$i $full_path/home/.vim/bundle/$i
 done
 
 
