@@ -6,27 +6,30 @@ default_bundle_submods=(
   browser-refresh.vim
   cocoa.vim
   gist-vim
+  gundo
   jade.vim
-  vim-json
   markdown-preview.vim
   nerdcommenter
   nerdtree
   processing.vim
   rvm.vim
-  ultisnips
   supertab
   syntastic
+  ultisnips
   vim-coffee-script
+  vim-colorscheme-switcher
   vim-cucumber
   vim-fugitive
   vim-haml
   vim-javascript
+  vim-json
   vim-markdown
+  vim-misc
   vim-rails
   vim-ruby
   vim-stylus
-  vim-unimpaired
   vim-surround
+  vim-unimpaired
   yankring
 )
 
