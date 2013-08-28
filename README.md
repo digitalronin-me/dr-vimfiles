@@ -25,9 +25,9 @@ Virtually all of these are optional, but **highly** recommended:
   1.8.7* is used by Vim internally and, in turn, by some of the Vim bundles
   that are installed as *DR-Vimfiles*.  Both versions of *Ruby* should be able
   to coexist.
-- [Python][python] - Either *Python 2* or *Python 3* will do.  *Python* is used
-  by some of the bundles that are part of *DR-Vimfiles*.
-  [SirVer/ultisnips][ultisnips] being the main one.
+- [Python 2.7][python] - Used by some of the bundles that are part of
+  *DR-Vimfiles*.  [SirVer/ultisnips][ultisnips] being the main one.  *Python
+  2.7* seems to be the sweet spot in terms of compatibility between bundles.
 - [Homesick][homesick] - Homesick is sorta like rip, but for dotfiles. It uses
   git to clone a repository containing dotfiles, and saves them in ~/.homesick.
   It then allows you to symlink all the dotfiles into place with a single
@@ -124,7 +124,7 @@ Install ctags:
 
     sudo port install ctags
 
-If you have version of Vim built with the *+ruby* AND (*+python* OR *+python3*)
+If you have version of Vim built with the *+ruby* AND *+python*
 options set, you are done.  Proceed to the [Common Installation
 Tasks](#common_install) section below.  To see Vim's build options:
 
@@ -133,12 +133,12 @@ Tasks](#common_install) section below.  To see Vim's build options:
 If your version of Vim was not built with Ruby and Python support, proceed with
 the rest of this section.
 
-    # Install Python 3.3:
-    sudo port install python33
-    sudo port select --set python python33
+    # Install Python 2.7:
+    sudo port install python27
+    sudo port select --set python python27
     
     # Build and install Vim with Ruby and Python support:
-    sudo port install vim +python33 +ruby 
+    sudo port install vim +python27 +ruby 
 
 Depending on your needs, you might want to consider installing some of the
 following as well:
