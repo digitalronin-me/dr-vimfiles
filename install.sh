@@ -12,7 +12,6 @@ default_bundle_submods=(
   nerdcommenter
   nerdtree
   processing.vim
-  rvm.vim
   supertab
   syntastic
   ultisnips
