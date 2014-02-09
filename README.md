@@ -450,7 +450,9 @@ repositories. Anything written by F/ is of course open source through MIT.
 While contributions are welcome, you're probably better off forking and tuning
 it to your own machine.
 
-Copyright (c) 2013 by DigitalRonin.me
+Copyright (c) 2014 by DigitalRounin.com
+
+Copyright (c) 2011 by Factory Design Labs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
