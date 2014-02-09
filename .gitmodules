@@ -115,9 +115,6 @@
 [submodule "home/.vim/core-upstream/bundle/yankring"]
 	path = home/.vim/core-upstream/bundle/yankring
 	url = https://github.com/chrismetcalf/vim-yankring.git
-[submodule "home/.vim/core-upstream/bundle/rvm.vim"]
-	path = home/.vim/core-upstream/bundle/rvm.vim
-	url = https://github.com/csexton/rvm.vim.git
 [submodule "home/.vim/core-upstream/bundle/delimitMate"]
 	path = home/.vim/core-upstream/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
