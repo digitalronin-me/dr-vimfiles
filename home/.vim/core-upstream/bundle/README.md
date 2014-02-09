@@ -18,10 +18,11 @@ You'll need to restart Vim for the changes to take effect.
 New plug-ins need to be added to the `bundle_storage` directory and should be
 treated as submodules. To add a new one run:
 
-    git submodule add <remote_repository> <home/.vim/bundle_storage/bundle-name>
+    git submodule add <REMOTE_REPOSITORY> home/.vim/core-upstream/bundle/<BUNDLE-NAME>
     git submodule init
     git submodule update
-    ln -s ~/path/to/vimfiles/bundle_storage/bundle-name ~/path/to/vimfiles/bundle/bundle-name
+    ln -s ~/PATH/TO/dr-vimfiles/home/.vim/core-upstream/bundle/BUNDLE-NAME \
+        ~/PATH/TO/dr-vimfiles/home/.vim/bundle/BUNDLE-NAME
 
 Test it out and if it's a keeper, add it to the repository, add it to the list
 below with a quick description and tell the world about it's greatness.
