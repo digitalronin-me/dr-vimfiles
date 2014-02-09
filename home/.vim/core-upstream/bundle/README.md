@@ -33,12 +33,12 @@ try to clone from there instead.
 
 ### Removing Submodules
 
-   1. Delete the relevant line from the `.gitmodules` file
+   1. Run `git rm --cached path_to_submodule` (**no trailing slash!!**)
+   - Delete the relevant line from the `.gitmodules` file
    - Delete the relevant section from `.git/config`
-   - Run `git rm --cached path_to_submodule` (**no trailing slash!!**)
-   - Remove the directory from `bundle_storage`
-   - Remove the symbolic link from `bundle`
-   - Remove any descriptions from the `README.md` file
+   - Remove the directory from `home/.vim/core-upstream/bundle`
+   - Remove the symbolic link from `home/.vim/bundle`
+   - Remove any descriptions from the `home/.vim/core-upstream/bundle/README.md` file
 
 
 ### Default Plug-Ins
