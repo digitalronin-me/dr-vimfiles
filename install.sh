@@ -26,7 +26,6 @@ default_bundle_submods=(
   vim-misc
   vim-rails
   vim-ruby
-  vim-rvm
   vim-stylus
   vim-surround
   vim-unimpaired
