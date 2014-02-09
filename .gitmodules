@@ -4,12 +4,6 @@
 [submodule "home/.vim/core-upstream/bundle/ack.vim"]
 	path = home/.vim/core-upstream/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "home/.vim/core-upstream/bundle/actionscript.vim"]
-	path = home/.vim/core-upstream/bundle/actionscript.vim
-	url = https://github.com/vim-scripts/actionscript.vim--Leider.git
-[submodule "home/.vim/core-upstream/bundle/applescript.vim"]
-	path = home/.vim/core-upstream/bundle/applescript.vim
-	url = https://github.com/vim-scripts/applescript.vim.git
 [submodule "home/.vim/core-upstream/bundle/argtextobj.vim"]
 	path = home/.vim/core-upstream/bundle/argtextobj.vim
 	url = https://github.com/vim-scripts/argtextobj.vim.git

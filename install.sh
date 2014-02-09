@@ -1,8 +1,6 @@
 #!/bin/sh
 default_bundle_submods=(
   ack.vim
-  actionscript.vim
-  applescript.vim
   browser-refresh.vim
   cocoa.vim
   gist-vim

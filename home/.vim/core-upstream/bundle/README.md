@@ -50,8 +50,6 @@ haves. You can disable any of these by removing the symbolic link, but it would
 be a lot cooler if you didn't.
 
 - [ack.vim](https://github.com/mileszs/ack.vim/blob/master/doc/ack.txt)
-- [actionscript.vim](https://github.com/vim-scripts/actionscript.vim--Leider)
-- [applescript.vim](https://github.com/vim-scripts/applescript.vim)
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
 - [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
 - [gist-vim](https://github.com/mattn/gist-vim)
