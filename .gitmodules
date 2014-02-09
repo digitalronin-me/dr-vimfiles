@@ -70,9 +70,6 @@
 [submodule "home/.vim/core-upstream/bundle/tailminusf"]
 	path = home/.vim/core-upstream/bundle/tailminusf
 	url = https://github.com/vim-scripts/TailMinusF.git
-[submodule "home/.vim/core-upstream/bundle/vim-cucumber"]
-	path = home/.vim/core-upstream/bundle/vim-cucumber
-	url = https://github.com/tpope/vim-cucumber.git
 [submodule "home/.vim/core-upstream/bundle/vim-fugitive"]
 	path = home/.vim/core-upstream/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
