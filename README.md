@@ -58,7 +58,6 @@ Here are the packages you get out of the box:
 - [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
 - [vim-markdown](https://github.com/tpope/vim-markdown)
 - [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
-- [vim-ruby](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
 - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
 - [vim-stylus](https://github.com/wavded/vim-stylus)
 - [vim-surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt) - Delete, change, and add "surroundings" i.e. parentheses, quotes, and HTML tags \*\*
