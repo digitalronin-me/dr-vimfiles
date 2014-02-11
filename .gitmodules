@@ -10,9 +10,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-speeddating"]
 	path = home/.vim/core-upstream/bundle/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating.git
-[submodule "home/.vim/core-upstream/bundle/delimitMate"]
-	path = home/.vim/core-upstream/bundle/delimitMate
-	url = https://github.com/Raimondi/delimitMate.git
 [submodule "home/.vim/bundle/ack.vim"]
 	path = home/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
