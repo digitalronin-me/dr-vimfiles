@@ -58,9 +58,6 @@
 [submodule "home/.vim/core-upstream/bundle/processing.vim"]
 	path = home/.vim/core-upstream/bundle/processing.vim
 	url = https://github.com/vim-scripts/Processing.git
-[submodule "home/.vim/core-upstream/bundle/specky"]
-	path = home/.vim/core-upstream/bundle/specky
-	url = https://github.com/vim-scripts/Specky.git
 [submodule "home/.vim/core-upstream/bundle/syntastic"]
 	path = home/.vim/core-upstream/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
