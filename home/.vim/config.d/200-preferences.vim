@@ -20,14 +20,14 @@ set number
 set title
 set laststatus=2
 set splitbelow splitright
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set smarttab
 set expandtab
 set nowrap
 set list
-set listchars=tab:▸\ ,eol:¬,trail:·
+set listchars=tab:▸-,eol:¬,trail:·
 set foldlevelstart=0
 set foldmethod=marker
 set formatoptions=tcq

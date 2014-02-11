@@ -12,13 +12,8 @@
 nmap <unique> <tab> %
 vmap <unique> <tab> %
 
-" Insert/append a single character
-nmap <unique> ,, i_<esc>r
-nmap <unique> ;; a_<esc>r
-
 " Clear the search highlight
 map <unique> <leader>\ :nohlsearch<cr>
-
 
 " Visually select the text that was last edited/pasted
 nmap <unique> gV `[v`]
