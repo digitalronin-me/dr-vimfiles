@@ -1,23 +1,77 @@
 # DR-Vimfiles
 
-DR-Vimfiles is a fork of [factorylabs/vimfiles][flvimfiles].  It looks like
-[factorylabs/vimfiles][flvimfiles] has been sitting dormant for the last few
-years.  There's a lot of great work in there that should be continued, and
-improved upon.  DR-Vimfiles is an attempt at that.
+## Overview
 
-***Please keep in mind thathis is a work in progress, and should not be
+DR-Vimfiles is inspired by, and a fork of [factorylabs/vimfiles][flvimfiles].
+This version has been seriously dumbed down to git rid of all the
+prerequisites, and to simplify installation.
+
+Uses [homeshick][homeshick], but only to seriously simplify installation, and
+updates.
+
+Originally Tuned to play nice with [Vim][vim] on OS X but works with most \*nix
+environments.
+
+***Please keep in mind that this is a work in progress, and should not be
 considered unstable for now***
 
-Tuned to play nice with [Vim][vim] on  OS X but works with most \*nix
-environments. Setup using [homesick][homesick] for that symlinkn' goodness.
+
+## Installation
+
+Now, assuming you have all the prerequisites in place installation this simple:
+
+    git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+    source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+    homeshick clone https://github.com/digitalrounin/dr-vimfiles.git
+
+This will install the default configuration files/directories, submodules, and
+create symbolic links for bundles and snippets.  And that's it.  You should not
+have to do anything else, unless you want to get fancy.  If that's the case,
+read the rest of this document.
 
 
+## Default packages
 
-## Prerequisites 
+Here are the packages you get out of the box:
 
-This covers system level prerequisites.
+- [SirVer/ultisnips](https://nipsithub.com/SirVer/ultisnips) - This is an implementation of TextMates Snippets for the Vim Text Editor. It has all features of TextMates Snippets and then some.
+- [YankRing](https://github.com/vim-scripts/YankRing.vim)
+- [ack.vim](https://github.com/mileszs/ack.vim/blob/master/doc/ack.txt)
+- [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
+- [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
+- [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
+- [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
+- [gist-vim](https://github.com/mattn/gist-vim)
+- [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
+- [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
+- [jade.vim](https://github.com/vim-scripts/jade.vim)
+- [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
+- [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
+- [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
+- [statusline](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
+- [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
+- [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
+- [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
+- [taglist.vim](https://github.com/vim-scripts/taglist.vim/blob/master/doc/taglist.txt)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
+- [vim-haml](https://github.com/tpope/vim-haml)
+- [vim-javascript](https://github.com/pangloss/vim-javascript)
+- [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
+- [vim-markdown](https://github.com/tpope/vim-markdown)
+- [vim-rails](https://github.com/tpope/vim-rails/blob/master/doc/rails.txt)
+- [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
+- [vim-ruby](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
+- [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
+- [vim-stylus](https://github.com/wavded/vim-stylus)
+- [vim-surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt) - Delete, change, and add "surroundings" i.e. parentheses, quotes, and HTML tags \*\*
+- [vim-unimpaired](https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt)
 
-Virtually all of these are optional, but **highly** recommended:
+
+# If you want to get fancy
+
+## Recommended tools
+
+Virtually all of these are optional.. All depends on what you want to do:
 
 - [Ruby 2.0.0][ruby] -  needed to run the latest version of [Redcarpet
   2][redcarpet], else you will be limited to *Redcarpet 2.3.0*, which uses
@@ -59,30 +113,10 @@ following:
   particular coding guidelines and the environment you expect your code to
   execute in (from their site).
 
-## Simple Installation
-
-Now, assuming you have all the prerequisites in place installation this simple:
-
-    homesick clone https://github.com/digitalronin-me/dr-vimfiles
-    cd ~/.homesick/repos/dr-vimfiles/
-    bash install.sh
-    homesick symlink dr-vimfiles -f
-
-This will install the default configuration files/directories, submodules, and
-create symbolic links for bundles and snippets. Most of the heavy lifting is
-done by the [install script][install.sh].
-
-At this point you should have a default setup ready to rock. You're going to
-want to tune it a bit to your environment, so go forth and "Pimp Your Ride".
-
 
 ## Installation Details
 
-Missing some of the prerequisites?  This section is for you.  
-
-***In fact!  Everyone should at least skim this section to make sure that they
-did not miss anything.***  Just say'n.  You have been warned
-
+Want to install some of the tools mentioned above?  This section is for you.  
 
 ### OS X - MacPorts or Homebrew?
 
@@ -476,6 +510,8 @@ SOFTWARE.
 <!-- link ids -->
 [flvimfiles]: https://github.com/factorylabs/vimfiles
 [vim]: http://www.vim.org/
+[homeshick]: https://github.com/andsens/homeshick
+
 [redcarpet]: https://github.com/vmg/redcarpet
 [ruby]: http://www.ruby-lang.org/
 [python]: http://www.python.org/
@@ -493,11 +529,9 @@ SOFTWARE.
 
 [macvim]: http://code.google.com/p/macvim/
 [homebrew]: http://github.com/mxcl/homebrew
-[homesick]: http://github.com/technicalpickles/homesick
 [ctags]: http://ctags.sourceforge.net/
 [discount]: http://www.pell.portland.or.us/~orc/Code/discount/
 [vim-scripts]: https://github.com/vim-scripts
-[install.sh]: https://github.com/factorylabs/vimfiles/blob/master/install.sh
 [update.sh]: https://github.com/factorylabs/vimfiles/blob/master/update.sh
 [clean.sh]: https://github.com/factorylabs/vimfiles/blob/master/clean.sh
 [closure]: http://code.google.com/p/closure-linter/
