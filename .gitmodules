@@ -70,3 +70,27 @@
 [submodule "ext/vim-pathogen"]
 	path = ext/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "home/.vim/bundle/yankring.vim"]
+	path = home/.vim/bundle/yankring.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "home/.vim/bundle/autocomplpop.vim"]
+	path = home/.vim/bundle/autocomplpop.vim
+	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "home/.vim/bundle/colorsel.vim"]
+	path = home/.vim/bundle/colorsel.vim
+	url = https://github.com/vim-scripts/colorsel.vim.git
+[submodule "home/.vim/bundle/delimitmate.vim"]
+	path = home/.vim/bundle/delimitmate.vim
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "home/.vim/bundle/html-autoclose.vim"]
+	path = home/.vim/bundle/html-autoclose.vim
+	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
+[submodule "home/.vim/bundle/tabular.vim"]
+	path = home/.vim/bundle/tabular.vim
+	url = https://github.com/godlygeek/tabular.git
+[submodule "home/.vim/bundle/vim-repeat"]
+	path = home/.vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "home/.vim/bundle/vim-speeddating"]
+	path = home/.vim/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
