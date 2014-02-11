@@ -13,9 +13,6 @@
 [submodule "home/.vim/core-upstream/bundle/tabular"]
 	path = home/.vim/core-upstream/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "home/.vim/core-upstream/bundle/vim-javascript"]
-	path = home/.vim/core-upstream/bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
 [submodule "home/.vim/core-upstream/bundle/vim-markdown"]
 	path = home/.vim/core-upstream/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/vim-haml"]
 	path = home/.vim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule "home/.vim/bundle/vim-javascript"]
+	path = home/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
