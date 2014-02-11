@@ -19,9 +19,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-speeddating"]
 	path = home/.vim/core-upstream/bundle/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating.git
-[submodule "home/.vim/core-upstream/bundle/vim-surround"]
-	path = home/.vim/core-upstream/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "home/.vim/core-upstream/bundle/vim-unimpaired"]
 	path = home/.vim/core-upstream/bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/vim-stylus"]
 	path = home/.vim/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
+[submodule "home/.vim/bundle/vim-surround"]
+	path = home/.vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
