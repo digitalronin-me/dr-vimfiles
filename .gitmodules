@@ -52,9 +52,6 @@
 [submodule "home/.vim/core-upstream/bundle/nerdtree"]
 	path = home/.vim/core-upstream/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "home/.vim/core-upstream/bundle/processing.vim"]
-	path = home/.vim/core-upstream/bundle/processing.vim
-	url = https://github.com/vim-scripts/Processing.git
 [submodule "home/.vim/core-upstream/bundle/syntastic"]
 	path = home/.vim/core-upstream/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git

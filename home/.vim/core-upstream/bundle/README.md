@@ -59,7 +59,6 @@ be a lot cooler if you didn't.
 - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
-- [processing.vim](https://github.com/vim-scripts/Processing)
 - [SirVer/ultisnips][https://nipsithub.com/SirVer/ultisnips] - This is an
   implementation of TextMates Snippets for the Vim Text Editor. It has all
   features of TextMates Snippets and then some.

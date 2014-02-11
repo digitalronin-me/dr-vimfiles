@@ -8,7 +8,6 @@ default_bundle_submods=(
   markdown-preview.vim
   nerdcommenter
   nerdtree
-  processing.vim
   supertab
   syntastic
   ultisnips
