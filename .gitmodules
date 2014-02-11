@@ -43,9 +43,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-stylus"]
 	path = home/.vim/core-upstream/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule "home/.vim/core-upstream/bundle/vim-json"]
-	path = home/.vim/core-upstream/bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
 [submodule "home/.vim/core-upstream/bundle/vim-misc"]
 	path = home/.vim/core-upstream/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/vim-javascript"]
 	path = home/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "home/.vim/bundle/vim-json"]
+	path = home/.vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
