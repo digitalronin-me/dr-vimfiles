@@ -57,7 +57,6 @@ Here are the packages you get out of the box:
 - [vim-javascript](https://github.com/pangloss/vim-javascript)
 - [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
 - [vim-markdown](https://github.com/tpope/vim-markdown)
-- [vim-rails](https://github.com/tpope/vim-rails/blob/master/doc/rails.txt)
 - [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
 - [vim-ruby](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
 - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
