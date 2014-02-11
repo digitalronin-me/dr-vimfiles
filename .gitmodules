@@ -4,9 +4,6 @@
 [submodule "home/.vim/core-upstream/bundle/ack.vim"]
 	path = home/.vim/core-upstream/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "home/.vim/core-upstream/bundle/argtextobj.vim"]
-	path = home/.vim/core-upstream/bundle/argtextobj.vim
-	url = https://github.com/vim-scripts/argtextobj.vim.git
 [submodule "home/.vim/core-upstream/bundle/autocomplpop.vim"]
 	path = home/.vim/core-upstream/bundle/autocomplpop.vim
 	url = https://github.com/vim-scripts/AutoComplPop.git
