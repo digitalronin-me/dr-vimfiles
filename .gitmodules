@@ -40,9 +40,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-stylus"]
 	path = home/.vim/core-upstream/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule "home/.vim/core-upstream/bundle/vim-misc"]
-	path = home/.vim/core-upstream/bundle/vim-misc
-	url = https://github.com/xolox/vim-misc.git
 [submodule "home/.vim/core-upstream/bundle/YankRing"]
 	path = home/.vim/core-upstream/bundle/YankRing
 	url = https://github.com/vim-scripts/YankRing.vim.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/vim-markdown"]
 	path = home/.vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "home/.vim/bundle/vim-misc"]
+	path = home/.vim/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
