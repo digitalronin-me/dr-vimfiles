@@ -61,7 +61,6 @@ be a lot cooler if you didn't.
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
 - [processing.vim](https://github.com/vim-scripts/Processing)
-- [rvm.vim](https://github.com/csexton/rvm.vim)
 - [SirVer/ultisnips][https://nipsithub.com/SirVer/ultisnips] - This is an
   implementation of TextMates Snippets for the Vim Text Editor. It has all
   features of TextMates Snippets and then some.
@@ -100,7 +99,6 @@ required in `.vimrc.local`
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
 - [indexed-search.vim](https://github.com/vim-scripts/IndexedSearch) - Adds visual cues when performing searches within a file \*\*
 - [lustyjuggler](https://github.com/vim-scripts/LustyJuggler) - Enables a window for navigating through open buffers
-- [specky](https://github.com/vim-scripts/Specky/blob/master/doc/specky.txt) - Plug-in for testing Ruby code with RSpec
 - [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
 - [tailminusf](https://github.com/vim-scripts/TailMinusF/blob/master/doc/tailminusf.txt) - Watch the contents of a file in real time
 - [vim-ragtag](https://github.com/tpope/vim-ragtag/blob/master/doc/ragtag.txt) - Ghetto XML/HTML mappings

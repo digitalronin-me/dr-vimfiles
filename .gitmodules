@@ -130,6 +130,3 @@
 [submodule "home/.vim/core-upstream/bundle/ultisnips"]
 	path = home/.vim/core-upstream/bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
-[submodule "home/.vim/core-upstream/bundle/vim-rvm"]
-	path = home/.vim/core-upstream/bundle/vim-rvm
-	url = https://github.com/tpope/vim-rvm.git
