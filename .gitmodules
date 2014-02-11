@@ -52,9 +52,6 @@
 [submodule "home/.vim/bundle/vim-misc"]
 	path = home/.vim/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
-[submodule "home/.vim/bundle/vim-ruby"]
-	path = home/.vim/bundle/vim-ruby
-	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "home/.vim/bundle/vim-stylus"]
 	path = home/.vim/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
