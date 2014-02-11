@@ -34,9 +34,6 @@
 [submodule "home/.vim/core-upstream/bundle/html-autoclose.vim"]
 	path = home/.vim/core-upstream/bundle/html-autoclose.vim
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
-[submodule "home/.vim/core-upstream/bundle/indexed-search.vim"]
-	path = home/.vim/core-upstream/bundle/indexed-search.vim
-	url = https://github.com/vim-scripts/IndexedSearch.git
 [submodule "home/.vim/core-upstream/bundle/jade.vim"]
 	path = home/.vim/core-upstream/bundle/jade.vim
 	url = https://github.com/vim-scripts/jade.vim.git
