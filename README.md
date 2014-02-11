@@ -60,7 +60,6 @@ Here are the packages you get out of the box:
 - [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
 - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
 - [vim-stylus](https://github.com/wavded/vim-stylus)
-- [vim-unimpaired](https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt)
 
 
 # If you want to get fancy
