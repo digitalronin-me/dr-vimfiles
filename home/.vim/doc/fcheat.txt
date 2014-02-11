@@ -44,7 +44,6 @@ Insert Mode:
 Function Keys:
   <F1>          => toggle full screen mode
   <F2>          => toggle NerdTree
-  <F3>          => toggle taglist
   <F4>          => toggle yankring
   <F5>          => show file type snippets (insert mode only)
   <F6>          => currently open and available

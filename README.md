@@ -52,7 +52,6 @@ Here are the packages you get out of the box:
 - [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
 - [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
 - [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
-- [taglist.vim](https://github.com/vim-scripts/taglist.vim/blob/master/doc/taglist.txt)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
 - [vim-haml](https://github.com/tpope/vim-haml)
 - [vim-javascript](https://github.com/pangloss/vim-javascript)
