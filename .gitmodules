@@ -10,9 +10,6 @@
 [submodule "home/.vim/core-upstream/bundle/autocomplpop.vim"]
 	path = home/.vim/core-upstream/bundle/autocomplpop.vim
 	url = https://github.com/vim-scripts/AutoComplPop.git
-[submodule "home/.vim/core-upstream/bundle/autocorrect.vim"]
-	path = home/.vim/core-upstream/bundle/autocorrect.vim
-	url = https://github.com/vim-scripts/autocorrect.vim.git
 [submodule "home/.vim/core-upstream/bundle/browser-refresh.vim"]
 	path = home/.vim/core-upstream/bundle/browser-refresh.vim
 	url = https://github.com/mkitt/browser-refresh.vim.git
