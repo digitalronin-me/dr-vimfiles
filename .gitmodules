@@ -10,9 +10,6 @@
 [submodule "home/.vim/core-upstream/bundle/html-autoclose.vim"]
 	path = home/.vim/core-upstream/bundle/html-autoclose.vim
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
-[submodule "home/.vim/core-upstream/bundle/jade.vim"]
-	path = home/.vim/core-upstream/bundle/jade.vim
-	url = https://github.com/vim-scripts/jade.vim.git
 [submodule "home/.vim/core-upstream/bundle/markdown-preview.vim"]
 	path = home/.vim/core-upstream/bundle/markdown-preview.vim
 	url = https://github.com/mkitt/markdown-preview.vim.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/gundo"]
 	path = home/.vim/bundle/gundo
 	url = https://github.com/vim-scripts/Gundo.git
+[submodule "home/.vim/bundle/jade.vim"]
+	path = home/.vim/bundle/jade.vim
+	url = https://github.com/vim-scripts/jade.vim.git
