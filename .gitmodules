@@ -7,9 +7,6 @@
 [submodule "home/.vim/core-upstream/bundle/colorsel.vim"]
 	path = home/.vim/core-upstream/bundle/colorsel.vim
 	url = https://github.com/vim-scripts/colorsel.vim.git
-[submodule "home/.vim/core-upstream/bundle/gist-vim"]
-	path = home/.vim/core-upstream/bundle/gist-vim
-	url = https://github.com/mattn/gist-vim.git
 [submodule "home/.vim/core-upstream/bundle/gundo"]
 	path = home/.vim/core-upstream/bundle/gundo
 	url = https://github.com/vim-scripts/Gundo.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/browser-refresh.vim"]
 	path = home/.vim/bundle/browser-refresh.vim
 	url = https://github.com/mkitt/browser-refresh.vim.git
+[submodule "home/.vim/bundle/gist-vim"]
+	path = home/.vim/bundle/gist-vim
+	url = https://github.com/mattn/gist-vim.git
