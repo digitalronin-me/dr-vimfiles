@@ -44,7 +44,6 @@ Here are the packages you get out of the box:
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
-- [jade.vim](https://github.com/vim-scripts/jade.vim)
 - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
