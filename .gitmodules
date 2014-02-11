@@ -10,9 +10,6 @@
 [submodule "home/.vim/core-upstream/bundle/html-autoclose.vim"]
 	path = home/.vim/core-upstream/bundle/html-autoclose.vim
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
-[submodule "home/.vim/core-upstream/bundle/nerdtree"]
-	path = home/.vim/core-upstream/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "home/.vim/core-upstream/bundle/syntastic"]
 	path = home/.vim/core-upstream/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/nerdcommenter"]
 	path = home/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
