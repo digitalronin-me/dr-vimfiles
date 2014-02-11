@@ -73,9 +73,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-markdown"]
 	path = home/.vim/core-upstream/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "home/.vim/core-upstream/bundle/vim-ragtag"]
-	path = home/.vim/core-upstream/bundle/vim-ragtag
-	url = https://github.com/tpope/vim-ragtag.git
 [submodule "home/.vim/core-upstream/bundle/vim-rails"]
 	path = home/.vim/core-upstream/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
