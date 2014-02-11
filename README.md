@@ -36,7 +36,6 @@ Here are the packages you get out of the box:
 
 - [SirVer/ultisnips](https://nipsithub.com/SirVer/ultisnips) - This is an implementation of TextMates Snippets for the Vim Text Editor. It has all features of TextMates Snippets and then some.
 - [YankRing](https://github.com/vim-scripts/YankRing.vim)
-- [ack.vim](https://github.com/mileszs/ack.vim/blob/master/doc/ack.txt)
 - [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector

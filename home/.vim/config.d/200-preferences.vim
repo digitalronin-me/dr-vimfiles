@@ -51,7 +51,6 @@ set smartcase
 set incsearch
 set showmatch
 set hlsearch
-set grepprg=ack
 runtime macros/matchit.vim
 
 " Popup menu behavior
