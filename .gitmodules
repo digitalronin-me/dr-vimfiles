@@ -49,9 +49,6 @@
 [submodule "home/.vim/core-upstream/bundle/delimitMate"]
 	path = home/.vim/core-upstream/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "home/.vim/core-upstream/bundle/supertab"]
-	path = home/.vim/core-upstream/bundle/supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule "home/.vim/core-upstream/bundle/clang_complete"]
 	path = home/.vim/core-upstream/bundle/clang_complete
 	url = https://github.com/Rip-Rip/clang_complete.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/supertab"]
+	path = home/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
