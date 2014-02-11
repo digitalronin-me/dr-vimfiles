@@ -1,9 +1,6 @@
 [submodule "home/.vim/core-upstream/autoload/vim-pathogen"]
 	path = home/.vim/core-upstream/autoload/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "home/.vim/core-upstream/bundle/ack.vim"]
-	path = home/.vim/core-upstream/bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "home/.vim/core-upstream/bundle/autocomplpop.vim"]
 	path = home/.vim/core-upstream/bundle/autocomplpop.vim
 	url = https://github.com/vim-scripts/AutoComplPop.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/core-upstream/bundle/YankRing"]
 	path = home/.vim/core-upstream/bundle/YankRing
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "home/.vim/bundle/ack.vim"]
+	path = home/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
