@@ -74,7 +74,7 @@ be a lot cooler if you didn't.
 - [vim-ruby](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
 - [vim-stylus](https://github.com/wavded/vim-stylus)
 - [vim-unimpaired](https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt)
-- [yankring](https://github.com/chrismetcalf/vim-yankring/blob/master/doc/yankring.txt)
+- [YankRing](https://github.com/vim-scripts/YankRing.vim)
 
 
 ### Additional Plug-Ins
