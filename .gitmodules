@@ -19,9 +19,6 @@
 [submodule "home/.vim/core-upstream/bundle/delimitMate"]
 	path = home/.vim/core-upstream/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "home/.vim/core-upstream/bundle/clang_complete"]
-	path = home/.vim/core-upstream/bundle/clang_complete
-	url = https://github.com/Rip-Rip/clang_complete.git
 [submodule "home/.vim/core-upstream/bundle/YankRing"]
 	path = home/.vim/core-upstream/bundle/YankRing
 	url = https://github.com/vim-scripts/YankRing.vim.git
