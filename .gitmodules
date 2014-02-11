@@ -10,9 +10,6 @@
 [submodule "home/.vim/core-upstream/bundle/html-autoclose.vim"]
 	path = home/.vim/core-upstream/bundle/html-autoclose.vim
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
-[submodule "home/.vim/core-upstream/bundle/syntastic"]
-	path = home/.vim/core-upstream/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "home/.vim/core-upstream/bundle/tabular"]
 	path = home/.vim/core-upstream/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -97,3 +94,6 @@
 [submodule "home/.vim/bundle/supertab"]
 	path = home/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "home/.vim/bundle/syntastic"]
+	path = home/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
