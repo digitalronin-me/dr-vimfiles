@@ -51,7 +51,6 @@ be a lot cooler if you didn't.
 
 - [ack.vim](https://github.com/mileszs/ack.vim/blob/master/doc/ack.txt)
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
-- [cocoa.vim](https://github.com/msanders/cocoa.vim/blob/master/doc/cocoa.txt)
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [jade.vim](https://github.com/vim-scripts/jade.vim)
 - [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim:

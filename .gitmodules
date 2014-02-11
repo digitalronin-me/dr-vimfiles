@@ -22,9 +22,6 @@
 [submodule "home/.vim/core-upstream/bundle/camelcasemotion"]
 	path = home/.vim/core-upstream/bundle/camelcasemotion
 	url = https://github.com/vim-scripts/camelcasemotion.git
-[submodule "home/.vim/core-upstream/bundle/cocoa.vim"]
-	path = home/.vim/core-upstream/bundle/cocoa.vim
-	url = https://github.com/msanders/cocoa.vim.git
 [submodule "home/.vim/core-upstream/bundle/colorsel.vim"]
 	path = home/.vim/core-upstream/bundle/colorsel.vim
 	url = https://github.com/vim-scripts/colorsel.vim.git

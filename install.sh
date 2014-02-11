@@ -2,7 +2,6 @@
 default_bundle_submods=(
   ack.vim
   browser-refresh.vim
-  cocoa.vim
   gist-vim
   gundo
   jade.vim
