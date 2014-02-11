@@ -1,1 +1,1 @@
-../core-upstream/autoload/vim-pathogen/autoload/pathogen.vim
+../../../ext/vim-pathogen/autoload/pathogen.vim
