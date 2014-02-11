@@ -109,9 +109,6 @@
 [submodule "home/.vim/core-upstream/bundle/vim-stylus"]
 	path = home/.vim/core-upstream/bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule "home/.vim/core-upstream/bundle/vim-coffee-script"]
-	path = home/.vim/core-upstream/bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "home/.vim/core-upstream/bundle/vim-json"]
 	path = home/.vim/core-upstream/bundle/vim-json
 	url = https://github.com/elzr/vim-json.git

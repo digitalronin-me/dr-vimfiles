@@ -66,7 +66,6 @@ be a lot cooler if you didn't.
 - [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
 - [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
 - [taglist.vim](https://github.com/vim-scripts/taglist.vim/blob/master/doc/taglist.txt)
-- [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
 - [vim-haml](https://github.com/tpope/vim-haml)
 - [vim-javascript](https://github.com/pangloss/vim-javascript)

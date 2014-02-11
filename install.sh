@@ -11,7 +11,6 @@ default_bundle_submods=(
   supertab
   syntastic
   ultisnips
-  vim-coffee-script
   vim-colorscheme-switcher
   vim-cucumber
   vim-fugitive
