@@ -55,9 +55,6 @@
 [submodule "home/.vim/bundle/yankring.vim"]
 	path = home/.vim/bundle/yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
-[submodule "home/.vim/bundle/autocomplpop.vim"]
-	path = home/.vim/bundle/autocomplpop.vim
-	url = https://github.com/vim-scripts/AutoComplPop.git
 [submodule "home/.vim/bundle/colorsel.vim"]
 	path = home/.vim/bundle/colorsel.vim
 	url = https://github.com/vim-scripts/colorsel.vim.git
