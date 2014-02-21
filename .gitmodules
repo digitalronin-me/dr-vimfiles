@@ -22,9 +22,6 @@
 [submodule "home/.vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "home/.vim/bundle/ultisnips"]
-	path = home/.vim/bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
 [submodule "home/.vim/bundle/vim-colorscheme-switcher"]
 	path = home/.vim/bundle/vim-colorscheme-switcher
 	url = https://github.com/xolox/vim-colorscheme-switcher.git

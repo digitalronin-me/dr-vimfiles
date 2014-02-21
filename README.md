@@ -34,7 +34,6 @@ read the rest of this document.
 
 Here are the packages you get out of the box:
 
-- [SirVer/ultisnips](https://nipsithub.com/SirVer/ultisnips) - This is an implementation of TextMates Snippets for the Vim Text Editor. It has all features of TextMates Snippets and then some.
 - [YankRing](https://github.com/vim-scripts/YankRing.vim)
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
@@ -80,8 +79,8 @@ Virtually all of these are optional.. All depends on what you want to do:
   that are installed as *DR-Vimfiles*.  Both versions of *Ruby* should be able
   to coexist.
 - [Python 2.7][python] - Used by some of the bundles that are part of
-  *DR-Vimfiles*.  [SirVer/ultisnips][ultisnips] being the main one.  *Python
-  2.7* seems to be the sweet spot in terms of compatibility between bundles.
+  *DR-Vimfiles*.  *Python 2.7* seems to be the sweet spot in terms of
+  compatibility between bundles.
 - [Homesick][homesick] - Homesick is sorta like rip, but for dotfiles. It uses
   git to clone a repository containing dotfiles, and saves them in ~/.homesick.
   It then allows you to symlink all the dotfiles into place with a single
@@ -305,38 +304,6 @@ plug-ins, and informationon how to manage them, please refer to the `README` fil
 in `dr-vimfiles/home/.vim/core-upstream/bundle/`.
 
 
-## Snippets
-
-By default all of the snippet files stored within `snippets_storage` are
-symlinked into the `snippets` directory. These cover most of the languages used
-at F/. To see the available snippets for a given file type hit `<F5>`, a
-snippet is triggered using `<tab>`.
-
-Certain file types like JavaScript have hundreds of snippets based on the
-native language and various libraries. This can become unmanageable pretty
-quickly. The solution is to breakout specific libraries into their own files.
-For example `javascript-jasmine.snippets` where it needs to be named as
-`language-library.snippets`. Since snippets are saved in the `snippets_storage`
-directory, you can be selective about what gets a symbolic link within the
-`snippets` directory.
-
-If you are working in a project that includes jQuery, you would only have
-symbolic links created for `javascript.snippets`,
-`javascript-jasmine.snippets`, and `javascript-jquery.snippets`. Another
-project that uses [node.js][nodejs], you could delete the symbolic link to
-`javascript-jquery.snippets` and add in `javascript-node.snippets` instead.
-This will give you a more manageable list of snippets to work with. By default,
-all snippets are included at installation, you'll want to tune these based on
-your needs.
-
-To learn more about [SirVer/ultisnips][ultisnips] and creating snippets, type
-`:h UltiSnips`
-
-For a quick way to do this, you may want to [create a shell
-script](https://gist.github.com/781626) to help automate the process. You'll
-need to restart Vim for the snippets to take affect.
-
-
 ## Syntax Checkers
 
 The configuration uses [syntastic][syntastic] quite heavily, most of it is out
@@ -514,7 +481,6 @@ SOFTWARE.
 [redcarpet]: https://github.com/vmg/redcarpet
 [ruby]: http://www.ruby-lang.org/
 [python]: http://www.python.org/
-[ultisnips]: https://github.com/SirVer/ultisnips
 [macports]: http://www.macports.org/
 [macports_install]: http://www.macports.org/install.php
 
