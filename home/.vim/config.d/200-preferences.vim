@@ -60,3 +60,10 @@ set pumheight=20
 let mapleader = '\'
 
 command! -nargs=* Wrap set wrap linebreak nolist
+
+"----
+" delimitMate
+"----
+" delimitMate_expand_cr - interferes with supertab's SuperTabCrMapping
+let g:delimitMate_expand_cr    = 0
+let g:delimitMate_expand_space = 1
