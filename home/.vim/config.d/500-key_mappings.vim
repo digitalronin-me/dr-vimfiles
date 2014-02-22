@@ -8,10 +8,6 @@
 " Key mapping
 " -----------------------------------------------------------------------------
 
-" Block movement
-nmap <unique> <tab> %
-vmap <unique> <tab> %
-
 " Clear the search highlight
 map <unique> <leader>\ :nohlsearch<cr>
 
