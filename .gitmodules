@@ -55,9 +55,6 @@
 [submodule "home/.vim/bundle/colorsel.vim"]
 	path = home/.vim/bundle/colorsel.vim
 	url = https://github.com/vim-scripts/colorsel.vim.git
-[submodule "home/.vim/bundle/delimitmate.vim"]
-	path = home/.vim/bundle/delimitmate.vim
-	url = https://github.com/Raimondi/delimitMate.git
 [submodule "home/.vim/bundle/html-autoclose.vim"]
 	path = home/.vim/bundle/html-autoclose.vim
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
