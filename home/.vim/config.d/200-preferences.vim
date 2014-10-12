@@ -59,8 +59,6 @@ set pumheight=20
 
 let mapleader = '\'
 
-command! -nargs=* Wrap set wrap linebreak nolist
-
 "----
 " delimitMate
 "----
