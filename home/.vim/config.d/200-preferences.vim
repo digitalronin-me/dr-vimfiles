@@ -46,8 +46,6 @@ set directory=.
 set viminfo='500,:1000,/1000,f1,n~/.viminfo
 
 " Searching
-set ignorecase
-set smartcase
 set incsearch
 set showmatch
 set hlsearch
