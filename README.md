@@ -71,7 +71,7 @@ These packages have been removed, but might be worth adding back in the future
 
 Virtually all of these are optional.. All depends on what you want to do:
 
-- [Ruby 2.0.0][ruby] -  needed to run the latest version of [Redcarpet
+- [Ruby 2.2][ruby] -  needed to run the latest version of [Redcarpet
   2][redcarpet], else you will be limited to *Redcarpet 2.3.0*, which uses
   *Ruby 1.8.7*.
 - [Ruby 1.8.7][ruby] - Yep, **both** *Ruby 2.0.0* and *Ruby 1.8.7*.  *Ruby
@@ -146,12 +146,12 @@ This section is intended for [MacPorts][macports] users.
 If you have not already installed MacPorts, please go to the [MacPorts
 installation page][macports_install].  
 
-Install Ruby 2.0.0, Vim will automatically install Ruby 1.8.7 on its own:
+Install Ruby 2.2.x, Vim will automatically install Ruby 1.8.7 on its own:
 
-    sudo port install ruby20
-    sudo port select --set ruby ruby20
+    sudo port install ruby22
+    sudo port select --set ruby ruby22
 
-Remember, you need Ruby 2.0.0 of greater for some of the external tools.
+Remember, you need Ruby 2.2.x of greater for some of the external tools.
 
 Install ctags:
 
