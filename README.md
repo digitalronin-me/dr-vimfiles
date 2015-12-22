@@ -42,7 +42,6 @@ read the rest of this document.
 Here are the packages you get out of the box:
 
   - [YankRing](https://github.com/vim-scripts/YankRing.vim)
-  - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
   - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
   - [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
   - [gist-vim](https://github.com/mattn/gist-vim)
@@ -68,8 +67,12 @@ Here are the packages you get out of the box:
 
 These packages have been removed, but might be worth adding back in the future
 
-- [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
-- [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
+  - [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
+  - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
+    Replaced by *markdown-preview.vim*, which lives in
+    [dr-vimfiles-nodejs][dr-vimfiles-nodejs].
+  - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
+    Only needed by *markdown-preview.vim*, which was removed as well.
 
 
 # If you want to get fancy
@@ -295,10 +298,8 @@ To pull upstream changes for all of the submodules run the following:
   4. If it all works!
      ```
      $ git commit -a -m "Updating all submodules."
+     $ git push
      ```
-
-
-### Updating
 
 Submodule plug-ins generate `doc/tag` files associated with help documents
 every time Vim is launched. This creates conflicts associated with pulling,
@@ -307,21 +308,6 @@ clean these out before running any pulls or commits.
 
 There are two shell scripts included to help in this process
 [clean.sh][clean.sh] and [update.sh][update.sh].
-
-
-#### Updating From The F/ Repository
-
-To update from the latest changes in the F/ repository run the following:
-
-1. Quit out of Vim
-- `bash clean.sh`
-- `git stash` or `git add` any updates from your environment spit out by the
-  `clean.sh` call to `git status`
-- `git pull --rebase`
-
-Commit your changes back up to the repository.
-
-
 
 
 ## Syntax Checkers
