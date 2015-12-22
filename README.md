@@ -41,7 +41,6 @@ Here are the packages you get out of the box:
 - [gist-vim](https://github.com/mattn/gist-vim)
 - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
-- [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
 - [statusline](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
@@ -63,6 +62,7 @@ Here are the packages you get out of the box:
 These packages have been removed, but might be worth adding back in the future
 
 - [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
+- [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 
 
 # If you want to get fancy
@@ -272,14 +272,23 @@ In the following example we are installing *vim-instant-markdown.git*:
     $ git submodule add \
             git@github.com:suan/vim-instant-markdown.git \
             home/.vim/bundle/vim-instant-markdown
+    $ homeshick symlink
 
 
 ### Removing a Pathogen modules
 
-Assuming you have [git-submodule-tools][git-submodule-tools] installed:
+Assuming:
+  - you have [git-submodule-tools][git-submodule-tools] installed.
+  - are uninstalling `markdown-preview.vim`.
 
     $ homeshick cd dr-vimfiles
+    $ cd home/.vim/bundle/markdown-preview.vim/
+    $ git checkout master
+    $ homeshick cd dr-vimfiles
     $ git-rm-submodule home/.vim/bundle/markdown-preview.vim
+    $ git push
+    $ find ~/.vim -xtype l -print
+    $ find ~/.vim -xtype l -print -delete
 
 
 ### Updating

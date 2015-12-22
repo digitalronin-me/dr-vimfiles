@@ -18,13 +18,6 @@ function! s:setCSS()
   call s:setBrowserEnv()
 endfunction
 
-" Setup specific options for markdown
-function! s:setMarkdown()
-  call s:setWrapping()
-  call s:setBrowserEnv()
-  autocmd! BufWritePost *.md,*.markdown,*.mkd :MDP
-endfunction
-
 
 " File handling and settings
 " -----------------------------------------------------------------------------
@@ -43,7 +36,6 @@ if !exists("autocmd_loaded_dr_vimfiles_ilzgh")
 
   " Call the file type utility methods
   autocmd BufRead,BufNewFile *.txt call s:setWrapping()
-  autocmd BufRead,BufNewFile *.md,*.markdown,*.mkd call s:setMarkdown()
   autocmd BufRead,BufNewFile *.css,*.scss call s:setCSS()
   autocmd BufRead,BufNewFile *.html,*.js,*.haml,*.erb call s:setBrowserEnv()
 
