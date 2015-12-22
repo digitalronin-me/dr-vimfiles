@@ -46,7 +46,7 @@ Here are the packages you get out of the box:
   - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
   - [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
   - [gist-vim](https://github.com/mattn/gist-vim)
-  - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
+  - [Undo](http://sjl.bitbucket.org/gundo.vim/) - Graph Vim's undo tree so it is actually usable
   - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
   - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
   - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
@@ -251,6 +251,8 @@ Assuming:
   - you have [git-submodule-tools][git-submodule-tools] installed.
   - are uninstalling `markdown-preview.vim`.
 
+Do the following:
+
     $ homeshick cd dr-vimfiles
     $ cd home/.vim/bundle/markdown-preview.vim/
     $ git checkout master
@@ -259,6 +261,41 @@ Assuming:
     $ git push
     $ find ~/.vim -xtype l -print
     $ find ~/.vim -xtype l -print -delete
+
+
+### Updating individual Pathogen modules
+
+To pull upstream changes for all of the submodules run the following:
+
+    $ cd ~/.homesick/repos/dr-vimfiles/home/.vim/bundle/bufexplorer
+    $ git fetch
+    $ git tag
+    $ git checkout v7.4.6
+    $ homeshick cd dr-vimfiles
+    $ git add home/.vim/bundle/bufexplorer
+    $ git push
+    $ find ~/.vim -xtype l -print
+    $ find ~/.vim -xtype l -print -delete
+    $ homeshick link dr-vimfiles
+
+
+### Updating all Pathogen modules
+
+  1. Quit out of Vim
+  2. Update everything:
+     ```
+     $ homeshick cd dr-vimfiles
+     $ git pull --rebase
+     $ ./update
+     $ find ~/.vim -xtype l -print
+     $ find ~/.vim -xtype l -print -delete
+     $ homeshick link dr-vimfiles
+     ```
+  3. Start up vim and make sure it works.
+  4. If it all works!
+     ```
+     $ git commit -a -m "Updating all submodules."
+     ```
 
 
 ### Updating
@@ -285,18 +322,6 @@ To update from the latest changes in the F/ repository run the following:
 Commit your changes back up to the repository.
 
 
-#### Updating Submodules
-
-To pull upstream changes for all of the submodules run the following:
-
-1. Quit out of Vim
-- `bash update.sh`
-- `git stash` or `git add` any updates from your environment spit out by the
-  `clean.sh` call to `git status`
-- `git pull --rebase`
-
-Commit your changes back up to the repository. F/ will run this script once a
-week to keep the submodules as up to date as possible.
 
 
 ## Syntax Checkers
