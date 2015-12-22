@@ -20,9 +20,9 @@ not be considered stable at all.  Use at your own risk.***
 
 Now, assuming you have all the prerequisites in place installation this simple:
 
-    git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
-    source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-    homeshick clone https://github.com/digitalrounin/dr-vimfiles.git
+    $ git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+    $ source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+    $ homeshick clone https://github.com/digitalrounin/dr-vimfiles.git
 
 This will install the default configuration files/directories, submodules, and
 create symbolic links for bundles and snippets.  And that's it.  You should not
@@ -30,31 +30,38 @@ have to do anything else, unless you want to get fancy.  If that's the case,
 read the rest of this document.
 
 
+## Related
+
+  - [dr-vimfiles-nodejs][dr-vimfiles-nodejs] - Vim configurations that require
+    Node.JS to be installed.
+  - [dr-vimfiles-python][dr-vimfiles-python] - Vim configurations that require
+    Python to be installed.
+
 ## Default packages
 
 Here are the packages you get out of the box:
 
-- [YankRing](https://github.com/vim-scripts/YankRing.vim)
-- [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
-- [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
-- [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
-- [gist-vim](https://github.com/mattn/gist-vim)
-- [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
-- [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
-- [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
-- [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
-- [statusline](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
-- [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
-- [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
-- [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
-- [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
-- [vim-haml](https://github.com/tpope/vim-haml)
-- [vim-javascript](https://github.com/pangloss/vim-javascript)
-- [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
-- [vim-markdown](https://github.com/tpope/vim-markdown)
-- [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
-- [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
-- [vim-stylus](https://github.com/wavded/vim-stylus)
+  - [YankRing](https://github.com/vim-scripts/YankRing.vim)
+  - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
+  - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
+  - [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
+  - [gist-vim](https://github.com/mattn/gist-vim)
+  - [gundo](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
+  - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
+  - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
+  - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
+  - [statusline](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
+  - [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
+  - [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
+  - [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
+  - [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
+  - [vim-haml](https://github.com/tpope/vim-haml)
+  - [vim-javascript](https://github.com/pangloss/vim-javascript)
+  - [vim-json](https://github.com/elzr/vim-json) - A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.
+  - [vim-markdown](https://github.com/tpope/vim-markdown)
+  - [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
+  - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
+  - [vim-stylus](https://github.com/wavded/vim-stylus)
 
 
 ## Removed
@@ -71,9 +78,7 @@ These packages have been removed, but might be worth adding back in the future
 
 Virtually all of these are optional.. All depends on what you want to do:
 
-- [Ruby 2.2][ruby] -  needed to run the latest version of [Redcarpet
-  2][redcarpet], else you will be limited to *Redcarpet 2.3.0*, which uses
-  *Ruby 1.8.7*.
+- [Ruby 2.2][ruby]
 - [Ruby 1.8.7][ruby] - Yep, **both** *Ruby 2.0.0* and *Ruby 1.8.7*.  *Ruby
   1.8.7* is used by Vim internally and, in turn, by some of the Vim bundles
   that are installed as *DR-Vimfiles*.  Both versions of *Ruby* should be able
@@ -81,35 +86,10 @@ Virtually all of these are optional.. All depends on what you want to do:
 - [Python 2.7][python] - Used by some of the bundles that are part of
   *DR-Vimfiles*.  *Python 2.7* seems to be the sweet spot in terms of
   compatibility between bundles.
-- [Homesick][homesick] - Homesick is sorta like rip, but for dotfiles. It uses
-  git to clone a repository containing dotfiles, and saves them in ~/.homesick.
-  It then allows you to symlink all the dotfiles into place with a single
-  command (from the Homesick site).
-- [Redcarpet][redcarpet] - Redcarpet is Ruby library for Markdown processing
-  that smells like butterflies and popcorn (from the Redcarpet site).  It is
-  used by a lot of the bundles when dealing with Markdown documents.
 - [Exuberant Ctags][ctags] - Ctags generates an index (or tag) file of language
   objects found in source files that allows these items to be quickly and
   easily located by a text editor or other utility. A tag signifies a language
   object for which an index entry is available (from the Exuberant Ctags site).
-
-
-If you are planning on doing JavaScript development, consider installing the
-following:
-
-- [Node.js][nodejs] - Node.js is a platform built on Chrome's JavaScript
-  runtime for easily building fast, scalable network applications. Node.js uses
-  an event-driven, non-blocking I/O model that makes it lightweight and
-  efficient, perfect for data-intensive real-time applications that run across
-  distributed devices (from their site).
-- [npm][npm] - Node Packaged Modules.
-- [JSLint][nodejslint] - Easily use JSLint from the command line (from their
-  site).
-- [JSHint][nodejshint] - JSHint is a community-driven tool to detect errors and
-  potential problems in JavaScript code and to enforce your team’s coding
-  conventions. It is very flexible so you can easily adjust it to your
-  particular coding guidelines and the environment you expect your code to
-  execute in (from their site).
 
 
 ## Installation Details
@@ -212,17 +192,7 @@ section.
 
 ### <a id="common_install"></a>Common Installation Tasks
 
-    # Install Homesick
-    sudo gem install homesick
-
-    # Install Redcarpet
-    sudo gem install redcarpet
-
-You might want to consider installing the following as well:
-
-    sudo npm update -g 
-    sudo npm install jshint -g
-    sudo npm install jslint -g
+***TODO***
 
 
 ## Pimp Your Ride
@@ -432,42 +402,6 @@ install the SIMBL [MouseTerm](http://bitheap.org/mouseterm/) plug-in. It brings
 the goodness.
 
 
-### Working With Your Own Submodules
-
-In order to keep your personal submodules available to forks but allow commits
-back to the upstream master repository from within the submodule:
-
-1. Create the repository for your bundle within git
--  Then from the `vimfiles` directory add the submodule as you would any other
-   submodule
--  Within your newly created submodule, create a remote reference to the
-   upstream master repository
--  Make changes to the submodule and push updates back to the remote upstream
-   master
--  Then whenever you pull updates to all of your submodules, you as well as
-   everyone else should get the changes
-
-Here is an example:
-
-    cd ~/.homesick/repos/vimfiles/
-    git submodule add git://github.com/username/submodule-name.vim.git home/.vim/bundle_storage/submodule-name.vim
-    cd home/.vim/bundle_storage/submodule-name.vim/
-    git remote add push git@github.com:username/submodule-name.vim.git
-    git submodule init
-    git submodule update
-    ln -s ~/path/to/vimfiles/bundle_storage/submodule-name.vim ~/path/to/vimfiles/bundle/submodule-name.vim
-
-Then whenever you make changes to the submodule:
-
-    cd ~/.homesick/repos/vimfiles/home/.vim/bundle_storage/submodule-name.vim/
-    git push push master
-
-This allows you to make changes directly in your submodule, see the effects and
-push the changes back without maintaining multiple repositories and linking
-them back and forth. [Defunkt][defunkt] has a good article about [working with
-submodules][defunkt-subs].
-
-
 ## License and Contributions
 
 All licensing for the Bundles/Plug-ins should be found in their respective
@@ -503,7 +437,6 @@ SOFTWARE.
 [vim]: http://www.vim.org/
 [homeshick]: https://github.com/andsens/homeshick
 
-[redcarpet]: https://github.com/vmg/redcarpet
 [ruby]: http://www.ruby-lang.org/
 [python]: http://www.python.org/
 [macports]: http://www.macports.org/
@@ -533,3 +466,5 @@ SOFTWARE.
 [defunkt-subs]: http://github.com/guides/developing-with-submodules
 [jshint-config]: https://github.com/factorylabs/jshint-config 
 [git-submodule-tools]: https://github.com/kollerma/git-submodule-tools
+[dr-vimfiles-python]: https://github.com/digitalrounin/dr-vimfiles-python
+[dr-vimfiles-nodejs]: https://github.com/digitalrounin/dr-vimfiles-nodejs
