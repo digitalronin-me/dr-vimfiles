@@ -12,8 +12,8 @@ updates.
 Originally Tuned to play nice with [Vim][vim] on OS X but works with most \*nix
 environments.
 
-***Please keep in mind that this is a work in progress, and should not be
-considered unstable for now***
+***Please keep in mind that this is a contiuous work in progress, and should
+not be considered stable at all.  Use at your own risk.***
 
 
 ## Installation
@@ -259,7 +259,30 @@ You can apply custom key bindings in `.vimrc.local`, configure plug-ins, or
 override default settings.
 
 
-## Updating
+## Managing Plug-Ins
+
+Plug-ins are managed using [vim-pathogen][pathogen].
+
+
+### Adding new Pathogen modules
+
+In the following example we are installing *vim-instant-markdown.git*:
+
+    $ homeshick cd dr-vimfiles
+    $ git submodule add \
+            git@github.com:suan/vim-instant-markdown.git \
+            home/.vim/bundle/vim-instant-markdown
+
+
+### Removing a Pathogen modules
+
+Assuming you have [git-submodule-tools][git-submodule-tools] installed:
+
+    $ homeshick cd dr-vimfiles
+    $ git-rm-submodule home/.vim/bundle/markdown-preview.vim
+
+
+### Updating
 
 Submodule plug-ins generate `doc/tag` files associated with help documents
 every time Vim is launched. This creates conflicts associated with pulling,
@@ -270,7 +293,7 @@ There are two shell scripts included to help in this process
 [clean.sh][clean.sh] and [update.sh][update.sh].
 
 
-### Updating From The F/ Repository
+#### Updating From The F/ Repository
 
 To update from the latest changes in the F/ repository run the following:
 
@@ -283,7 +306,7 @@ To update from the latest changes in the F/ repository run the following:
 Commit your changes back up to the repository.
 
 
-### Updating Submodules
+#### Updating Submodules
 
 To pull upstream changes for all of the submodules run the following:
 
@@ -295,13 +318,6 @@ To pull upstream changes for all of the submodules run the following:
 
 Commit your changes back up to the repository. F/ will run this script once a
 week to keep the submodules as up to date as possible.
-
-
-## Plug-Ins
-
-Plug-ins are managed using [vim-pathogen][pathogen].  For a list of all
-plug-ins, and informationon how to manage them, please refer to the `README` file
-in `dr-vimfiles/home/.vim/core-upstream/bundle/`.
 
 
 ## Syntax Checkers
@@ -507,4 +523,4 @@ SOFTWARE.
 [defunkt]: http://github.com/defunkt
 [defunkt-subs]: http://github.com/guides/developing-with-submodules
 [jshint-config]: https://github.com/factorylabs/jshint-config 
-
+[git-submodule-tools]: https://github.com/kollerma/git-submodule-tools
