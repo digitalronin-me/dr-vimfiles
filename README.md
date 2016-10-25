@@ -288,10 +288,7 @@ To pull upstream changes for all of the submodules run the following:
   1. Quit out of Vim
   2. Update everything:
      ```
-     $ git-rfetch
-     $ git-rdiff
-     $ git-rpull
-
+     $ homeshick cd dr-vimfiles
      $ git pull --rebase
      $ ./update
      $ find ~/.vim -xtype l -print
