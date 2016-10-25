@@ -276,6 +276,7 @@ To pull upstream changes for all of the submodules run the following:
     $ git checkout v7.4.6
     $ homeshick cd dr-vimfiles
     $ git add home/.vim/bundle/bufexplorer
+    $ git commit -m 'Updated bufexplorer to more recent version.'
     $ git push
     $ find ~/.vim -xtype l -print
     $ find ~/.vim -xtype l -print -delete
