@@ -1,1 +1,1 @@
-let g:ctrlp_map = '<F2>'
+let g:ctrlp_map = '<F3>'

@@ -1,28 +1,20 @@
 " Commands and helper functions
 " -----------------------------------------------------------------------------
 
-" Sort CSS properties between the braces alphabetically
-:command! SortCSS :g#\({\n\)\@<=#.,/}/sort | :noh
+" " Sort CSS properties between the braces alphabetically
+" :command! SortCSS :g#\({\n\)\@<=#.,/}/sort | :noh
 
 
 " Key mapping
 " -----------------------------------------------------------------------------
-
-" Clear the search highlight
-map <unique> <leader>\ :nohlsearch<cr>
 
 " Visually select the text that was last edited/pasted
 nmap <unique> gV `[v`]
 
 " Leader mapping
 " -----------------------------------------------------------------------------
-
-" Toggle wrapping in the current buffer
-nmap <unique> <leader>wt :set wrap!<cr>
-
-" Edit .vimrc and .vimrc.local
-nmap <unique> <leader>evm <C-w><C-v><C-l>:e $MYVIMRC<cr>
-nmap <unique> <leader>evl <C-w><C-v><C-l>:e ~/.vimrc.local<cr>
+" Clear the search highlight
+map <unique> <leader>\ :nohlsearch<cr>
 
 " Collapse all multi-line occurrences of whitespace into one line
 map <unique> <leader>CN :%s/^\n\+/\r//<cr>:let @/=''<cr>
@@ -30,7 +22,7 @@ map <unique> <leader>CN :%s/^\n\+/\r//<cr>:let @/=''<cr>
 " Clean whitespace
 map <unique> <leader>CW :%s/\s\+$//<cr>:let @/=''<cr>
 
-" Retab My Authority.
+" Retab
 map <unique> <leader>CT :retab<cr>
 
 " Open current buffer in a new split

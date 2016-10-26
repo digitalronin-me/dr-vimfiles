@@ -8,5 +8,6 @@ endif
 if &t_Co > 2 || has("gui_running")
   syntax on
   set background=dark
-  colorscheme default
+  colorscheme desert
+  " colorscheme torte
 endif
