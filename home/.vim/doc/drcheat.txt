@@ -32,7 +32,7 @@ TODO...
 
   normal mode: ~
     <F1>          - Vim help
-    <S-F1>        - Bring up *drcheat* sheet (TODO)
+    <S-F1>        - Bring up *drcheat* sheet
     <F2>          - Open Buffer Explorer
     <F3>          - CtrlP
     <F4>          -

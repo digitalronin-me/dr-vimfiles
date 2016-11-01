@@ -8,6 +8,9 @@
 " Key mapping
 " -----------------------------------------------------------------------------
 
+" See the cheatsheet.
+map <unique> <S-F1> :help drcheat<cr>:resize 10000<cr>
+
 " Visually select the text that was last edited/pasted
 nmap <unique> gV `[v`]
 
