@@ -4,7 +4,7 @@
 "    - :help termcap - other terminal information.
 
 if !has("gui_running")
-  if &term == "screen"
+  if &term == "screen" || &term == "screen-256color"
     set <S-F1>=[25~
     set <S-F2>=[26~
     set <S-F3>=[28~

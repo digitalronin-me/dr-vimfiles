@@ -97,7 +97,7 @@ Virtually all of these are optional.. All depends on what you want to do:
 
 ## Installation Details
 
-Want to install some of the tools mentioned above?  This section is for you.  
+Want to install some of the tools mentioned above?  This section is for you.
 
 ### OS X - MacPorts or Homebrew?
 
@@ -127,7 +127,7 @@ the assistance would greatly appreciated.
 This section is intended for [MacPorts][macports] users.
 
 If you have not already installed MacPorts, please go to the [MacPorts
-installation page][macports_install].  
+installation page][macports_install].
 
 Install Ruby 2.2.x, Vim will automatically install Ruby 1.8.7 on its own:
 
@@ -152,9 +152,9 @@ the rest of this section.
     # Install Python 2.7:
     sudo port install python27
     sudo port select --set python python27
-    
+
     # Build and install Vim with Ruby and Python support:
-    sudo port install vim +python27 +ruby 
+    sudo port install vim +python27 +ruby
 
 Depending on your needs, you might want to consider installing some of the
 following as well:
@@ -336,12 +336,10 @@ syntastic`
 
 Themes included with this configuration:
 
-1. `colorblind`: Black background, super vibrant colors
-- `snowblind`: White background, vibrant colors
-- `cataracts`: Grey background with muted colors
-- `bloodshot`: Similar to colorblind but with muted colors
-
-In the `extras` directory are Terminal themes to match the Vim color themes.
+  - `colorblind`: Black background, super vibrant colors
+  - `snowblind`: White background, vibrant colors
+  - `cataracts`: Grey background with muted colors
+  - `bloodshot`: Similar to colorblind but with muted colors
 
 To use the Terminal themes, install [SIMBL
 0.9.7](http://www.culater.net/software/SIMBL/SIMBL.php) and save the [64 Bit
@@ -459,7 +457,7 @@ SOFTWARE.
 [nodejslint]: https://github.com/reid/node-jslint
 [nodejshint]: https://github.com/jshint/node-jshint
 
-[jshint]: http://jshint.com/ 
+[jshint]: http://jshint.com/
 [jslint]: http://www.jslint.com/lint.html
 
 [macvim]: http://code.google.com/p/macvim/
@@ -476,7 +474,7 @@ SOFTWARE.
 [MesloGM]: https://github.com/andreberg/Meslo-Font
 [defunkt]: http://github.com/defunkt
 [defunkt-subs]: http://github.com/guides/developing-with-submodules
-[jshint-config]: https://github.com/factorylabs/jshint-config 
+[jshint-config]: https://github.com/factorylabs/jshint-config
 [git-submodule-tools]: https://github.com/kollerma/git-submodule-tools
 [dr-vimfiles-python]: https://github.com/digitalrounin/dr-vimfiles-python
 [dr-vimfiles-nodejs]: https://github.com/digitalrounin/dr-vimfiles-nodejs
