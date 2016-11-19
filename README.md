@@ -66,6 +66,7 @@ Here are the packages you get out of the box:
 Color schemes:
 
   - [dhruvasagar/vim-railscasts-theme][] - Apprentice is a dark, low-contrast colorscheme for Vim based on the awesome Sorcerer by Jeet Sukumaran.
+  - [morhetz/gruvbox][] - heavily inspired by badwolf, jellybeans and solarized.  Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way of solarized. The main focus when developing gruvbox is to keep colors easily distinguishable, contrast enough and still pleasant for the eyes.
   - [nanotech/jellybeans.vim][] - A colorful, dark color scheme, inspired by ir_black and twilight.  Designed primarily for a graphical Vim, but includes support for 256, 88, 16, and 8 color terminals. On a 16 or 8 color terminal, replace its colors with those in ansi-term-colors.txt for best results.  _**This is a great theme that allows for local overrides, and use of many colors.**_
   - [romainl/Apprentice][] - A color scheme based on the RailsCasts TextMate theme with decent support for both GUI and terminal.
   - [vim-colors-solarized][]
@@ -463,3 +464,4 @@ SOFTWARE.
 [romainl/Apprentice]: https://github.com/romainl/Apprentice
 [dhruvasagar/vim-railscasts-theme]: https://github.com/dhruvasagar/vim-railscasts-theme.git
 [nanotech/jellybeans.vim]: https://github.com/nanotech/jellybeans.vim
+[morhetz/gruvbox]: https://github.com/morhetz/gruvbox
