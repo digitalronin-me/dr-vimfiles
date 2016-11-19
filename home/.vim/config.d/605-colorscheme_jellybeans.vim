@@ -1,7 +1,7 @@
-if &term == "screen-256color" || &term == "xterm-256color"
-  let g:solarized_termcolors=256
-  let g:solarized_contrast='high'
-  let g:solarized_termtrans=1
-endif
+let g:jellybeans_use_term_italics = 0
+let g:jellybeans_use_lowcolor_black = 1
 
-colorscheme solarized
+" let g:jellybeans_overrides = {
+" 		\ 'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
+" 		\}
+

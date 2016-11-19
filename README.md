@@ -41,11 +41,10 @@ read the rest of this document.
 
 Here are the packages you get out of the box:
 
+  - [Undo](http://sjl.bitbucket.org/gundo.vim/) - Graph Vim's undo tree so it is actually usable
   - [YankRing](https://github.com/vim-scripts/YankRing.vim)
-  - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
   - [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \*\*
   - [gist-vim](https://github.com/mattn/gist-vim)
-  - [Undo](http://sjl.bitbucket.org/gundo.vim/) - Graph Vim's undo tree so it is actually usable
   - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
   - [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
   - [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
@@ -53,6 +52,7 @@ Here are the packages you get out of the box:
   - [supertab](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
   - [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
   - [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \*\*
+  - [vim-colorscheme-switcher][] - Makes it easy to quickly switch between color schemes in Vim.
   - [vim-fugitive](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
   - [vim-haml](https://github.com/tpope/vim-haml)
   - [vim-javascript](https://github.com/pangloss/vim-javascript)
@@ -62,6 +62,13 @@ Here are the packages you get out of the box:
   - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
   - [vim-stylus](https://github.com/wavded/vim-stylus)
 
+
+Color schemes:
+
+  - [dhruvasagar/vim-railscasts-theme][] - Apprentice is a dark, low-contrast colorscheme for Vim based on the awesome Sorcerer by Jeet Sukumaran.
+  - [nanotech/jellybeans.vim][] - A colorful, dark color scheme, inspired by ir_black and twilight.  Designed primarily for a graphical Vim, but includes support for 256, 88, 16, and 8 color terminals. On a 16 or 8 color terminal, replace its colors with those in ansi-term-colors.txt for best results.  _**This is a great theme that allows for local overrides, and use of many colors.**_
+  - [romainl/Apprentice][] - A color scheme based on the RailsCasts TextMate theme with decent support for both GUI and terminal.
+  - [vim-colors-solarized][]
 
 ## Removed
 
@@ -217,8 +224,6 @@ otherwise `yankring` will save it's history in a file in your `$HOME` directory
   gain templates and style sheets to keep you out of MS Word.
 - Set the default browser by changing `g:RefreshRunningBrowserDefault`. Use
   "chrome", "safari", or "firefox"
-- Optionally uncomment one of the `colorschemes`, there are 4 included as
-  described below, the default is `colorblind`
 - It's recommended to uncomment the entire conditional under *User GUI specific
   settings*. We roll with the [custom font MesloGM][MesloGM] at 12px. You'll
   need to download and install it, otherwise roll with Monaco or something if
@@ -330,31 +335,6 @@ the `cwd` to have the `.xcodeproj` file in it.
 
 To learn more about [syntastic][syntastic] and syntax checkers, type `:h
 syntastic`
-
-
-## Editor Themes
-
-Themes included with this configuration:
-
-  - `colorblind`: Black background, super vibrant colors
-  - `snowblind`: White background, vibrant colors
-  - `cataracts`: Grey background with muted colors
-  - `bloodshot`: Similar to colorblind but with muted colors
-
-To use the Terminal themes, install [SIMBL
-0.9.7](http://www.culater.net/software/SIMBL/SIMBL.php) and save the [64 Bit
-Terminal Colors](http://github.com/timmfin/terminalcolours) plug-in to:
-
-    ~/Library/Application Support/SIMBL/Plugins/
-
-
-The color themes have been designed with similarities in the syntax settings.
-Jumping between multiple languages should be easy on the mind and the eyes. Be
-adventurous and mix it up once in a while.
-
-**Most themes use the custom [MesloGM
-font](https://github.com/andreberg/Meslo-Font). Download, install and live the
-dream.**
 
 
 ## Tips
@@ -478,3 +458,8 @@ SOFTWARE.
 [git-submodule-tools]: https://github.com/kollerma/git-submodule-tools
 [dr-vimfiles-python]: https://github.com/digitalrounin/dr-vimfiles-python
 [dr-vimfiles-nodejs]: https://github.com/digitalrounin/dr-vimfiles-nodejs
+[vim-colors-solarized]: https://github.com/altercation/vim-colors-solarized
+[vim-colorscheme-switcher]: https://github.com/xolox/vim-colorscheme-switcher.git
+[romainl/Apprentice]: https://github.com/romainl/Apprentice
+[dhruvasagar/vim-railscasts-theme]: https://github.com/dhruvasagar/vim-railscasts-theme.git
+[nanotech/jellybeans.vim]: https://github.com/nanotech/jellybeans.vim

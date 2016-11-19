@@ -12,6 +12,7 @@ Drounin keymap cheat sheet              *drcheat*
 3. Builtin Mappings                     |drcheat-builtin|
   1. Spell checking                     |drcheat-builtin-spell|
   2. vimdiff                            |drcheat-builtin-vimdiff|
+  3. Other                              |drcheat-builtin-other|
 4. Plugin Mappings                      |drcheat-plugin|
   1. YankRing                           |drcheat-plugin-yankring|
   2. jedi-vim                           |drcheat-plugin-jedi|
@@ -99,6 +100,14 @@ often enough to commit to memory.
     :diffupdate   -  to remove leftover spacing issues
     :only         - once you’re done reviewing all conflicts, this shows only
                     the middle/merged file
+
+------------------------------------------------------------------------------
+3.2. Other                              *drcheat-builtin-other*
+
+  normal mode: ~
+    :colorscheme  - By itself, displays name of current theme.
+                    <Tab><Tab> list available themes.
+                    With name, switches theme.
 
 ==============================================================================
 4. Plugin Mappings                      *drcheat-plugin*
