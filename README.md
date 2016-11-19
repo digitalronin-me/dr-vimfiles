@@ -60,7 +60,6 @@ Here are the packages you get out of the box:
   - [vim-markdown](https://github.com/tpope/vim-markdown)
   - [vim-repeat](https://github.com/tpope/vim-repeat) - Enable repeating commands mapped to "." \*\*
   - [vim-speeddating](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
-  - [vim-stylus](https://github.com/wavded/vim-stylus)
 
 
 Color schemes:
@@ -70,17 +69,6 @@ Color schemes:
   - [nanotech/jellybeans.vim][] - A colorful, dark color scheme, inspired by ir_black and twilight.  Designed primarily for a graphical Vim, but includes support for 256, 88, 16, and 8 color terminals. On a 16 or 8 color terminal, replace its colors with those in ansi-term-colors.txt for best results.  _**This is a great theme that allows for local overrides, and use of many colors.**_
   - [romainl/Apprentice][] - A color scheme based on the RailsCasts TextMate theme with decent support for both GUI and terminal.
   - [vim-colors-solarized][]
-
-## Removed
-
-These packages have been removed, but might be worth adding back in the future
-
-  - [autocomplpop.vim](https://github.com/vim-scripts/AutoComplPop/blob/master/doc/acp.txt) - Live completion as you type, this can slow Vim down, but is useful in certain situations
-  - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
-    Replaced by *markdown-preview.vim*, which lives in
-    [dr-vimfiles-nodejs][dr-vimfiles-nodejs].
-  - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt)
-    Only needed by *markdown-preview.vim*, which was removed as well.
 
 
 # If you want to get fancy
