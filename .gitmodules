@@ -76,3 +76,6 @@
 [submodule "home/.vim/bundle/vim-railscasts-theme"]
 	path = home/.vim/bundle/vim-railscasts-theme
 	url = https://github.com/dhruvasagar/vim-railscasts-theme.git
+[submodule "home/.vim/bundle/vim-colors-solarized"]
+	path = home/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
