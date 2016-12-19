@@ -15,11 +15,12 @@ Drounin keymap cheat sheet              *drcheat*
   3. Other                              |drcheat-builtin-other|
 4. Plugin Mappings                      |drcheat-plugin|
   1. YankRing                           |drcheat-plugin-yankring|
-  2. jedi-vim                           |drcheat-plugin-jedi|
-  3. UltiSnips                          |drcheat-plugin-ultisnips|
-  4. Syntastic                          |drcheat-plugin-syntastic|
-  5. Unimpaired                         |drcheat-plugin-unimapired|
-  6. bufexplorer                        |drcheat-plugin-bufexplorer|
+  2. YouCompleteMe                      |drcheat-plugin-ycm|
+  3. jedi-vim                           |drcheat-plugin-jedi|
+  4. UltiSnips                          |drcheat-plugin-ultisnips|
+  5. Syntastic                          |drcheat-plugin-syntastic|
+  6. Unimpaired                         |drcheat-plugin-unimapired|
+  7. bufexplorer                        |drcheat-plugin-bufexplorer|
 
 ==============================================================================
 1. Introduction                         *drcheat-intro*
@@ -120,10 +121,27 @@ often enough to commit to memory.
     <C-P>         - move backwards through the yankring.
     <C-N>         - move forwards through the yankring.
 
-For more: *yankring*
+For more: |yankring|
 
 ------------------------------------------------------------------------------
-4.2. jedi-vim                           *drcheat-plugin-jedi*
+4.2. YouCompleteMe                      *drcheat-plugin-ycm*
+
+  normal mode: ~
+    <leader><Space>
+                  - Used to invoke the completion menu for semantic
+                    completion.
+    :YcmCompleter - List of available 'YcmCompleter' commands.
+    :YcmCompleter GoToDeclaration
+    :YcmCompleter GoToDefinition
+    :YcmCompleter GoTo
+    :YcmCompleter GoToReferences
+    :YcmCompleter GetDoc
+                  - Python specific commands.
+
+For more: |youcompleteme| or http://valloric.github.io/YouCompleteMe/
+
+------------------------------------------------------------------------------
+4.3. jedi-vim                           *drcheat-plugin-jedi*
 
   normal mode: ~
     <leader>d     - Goto definitions.  Follow identifier as far as possible,
@@ -135,10 +153,10 @@ For more: *yankring*
     :Pyimport os  - `Pyimport` opens Python module.  Example opens the os
                     module.
 
-For more: *jedi-vim.txt* or  https://github.com/davidhalter/jedi-vim
+For more: |jedi-vim.txt| or https://github.com/davidhalter/jedi-vim
 
 ------------------------------------------------------------------------------
-4.3. UltiSnips                          *drcheat-plugin-ultisnips*
+4.4. UltiSnips                          *drcheat-plugin-ultisnips*
 
   normal mode: ~
     <c-d>         - Expand trigger (custom)
@@ -146,19 +164,19 @@ For more: *jedi-vim.txt* or  https://github.com/davidhalter/jedi-vim
     <c-j>         - Jump forward trigger
     <c-k>         - Jump backward trigger
 
-For more: *UltiSnips* or https://github.com/SirVer/ultisnips
+For more: |UltiSnips| or https://github.com/SirVer/ultisnips
 
 ------------------------------------------------------------------------------
-4.4. Syntastic                          *drcheat-plugin-syntastic*
+4.5. Syntastic                          *drcheat-plugin-syntastic*
 
   normal mode: ~
     :lnext        - Next error in list.  (See Unimapired)
     :lprevious    - Previous error in list.  (See Unimapired)
 
-For more: *syntastic* or https://github.com/scrooloose/syntastic
+For more: |syntastic| or https://github.com/scrooloose/syntastic
 
 ------------------------------------------------------------------------------
-4.5. Unimpaired                         *drcheat-plugin-unimapired*
+4.6. Unimpaired                         *drcheat-plugin-unimapired*
 
   normal mode: ~
     [l            - Previous error. (:lprevious)
@@ -167,10 +185,10 @@ For more: *syntastic* or https://github.com/scrooloose/syntastic
     ]L            - Last error. (:llast)
     :help unimpaired
 
-For more: *unimpaired* or https://github.com/tpope/vim-unimpaired
+For more: |unimpaired| or https://github.com/tpope/vim-unimpaired
 
 -------------------------------------------------------------------
-4.6. bufexplorer                        *drcheat-plugin-bufexplorer*
+4.7. bufexplorer                        *drcheat-plugin-bufexplorer*
 
   normal mode: ~
 
@@ -183,7 +201,7 @@ For more: *unimpaired* or https://github.com/tpope/vim-unimpaired
     <Leader>bv    - To start exploring in a newly split vertical window.
                     (:BufExplorerVerticalSplit)
 
-For more: *bufexplorer*
+For more: |bufexplorer|
 
 ==============================================================================
 vim:tw=78:ts=2:ft=help:norl:
