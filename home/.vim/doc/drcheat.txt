@@ -40,7 +40,7 @@ TODO...
     <F4>          -
     <F5>          - Gundo toggle
     <F6>          - YankRing show
-    <F7>          -
+    <F7>          - Paste toggle
     <F8>          - Color scheme
     <F9>          - MAYBE NOTHING?
     <F10>         -

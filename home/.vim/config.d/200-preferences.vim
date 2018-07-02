@@ -33,6 +33,7 @@ set foldmethod=marker
 set formatoptions=tcq
 set autowrite
 
+set pastetoggle=<F7>
 
 if has("mouse")
  set mouse=a
