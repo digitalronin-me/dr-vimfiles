@@ -283,11 +283,7 @@ To pull upstream changes for all of the submodules run the following:
   2. Update everything:
      ```
      $ homeshick cd dr-vimfiles
-     $ git pull --rebase
      $ ./update
-     $ find ~/.vim -xtype l -print
-     $ find ~/.vim -xtype l -print -delete
-     $ homeshick link dr-vimfiles
      ```
   3. Start up vim and make sure it works.
   4. If it all works!
