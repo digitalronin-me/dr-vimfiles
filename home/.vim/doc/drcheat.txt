@@ -127,7 +127,7 @@ For more: |yankring|
 4.2. YouCompleteMe                      *drcheat-plugin-ycm*
 
   normal mode: ~
-    <leader><Space>
+    <C-Space>
                   - Used to invoke the completion menu for semantic
                     completion.
     :YcmCompleter - List of available 'YcmCompleter' commands.
@@ -160,7 +160,6 @@ For more: |jedi-vim.txt| or https://github.com/davidhalter/jedi-vim
 
   normal mode: ~
     <c-d>         - Expand trigger (custom)
-    <c-f>         - List snippets (custom)
     <c-j>         - Jump forward trigger
     <c-k>         - Jump backward trigger
 
